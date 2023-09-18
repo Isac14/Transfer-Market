@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header h1 {
+    text-align: center;
+    margin: 20px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.player {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+
+    border: 1px solid black;
+    border-radius: 15px;
+    height: 80vh;
+    width: 48%;
+}
+
+.team {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+
+    border: 1px solid red;
+    border-radius: 15px;
+    height: 80vh;
+    width: 48%;
+}
+
+.cardPlayer {
+    border: 1px solid black;
+    border-radius: 15px;
+    height: 15%;
+    width: 95%;
+}
+
+.cardTeam {
+    border: 1px solid red;
+    border-radius: 15px;
+    height: 15%;
+    width: 95%;
+}
+
+img {
+    height: 90%;
+    margin: 3px 15px;
+    border-radius: 10px;
+}
+
+.content {
+    font-size: small;
+    display: flex;
+}
