@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header h1 {
+    text-align: center;
+    margin: 20px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    border: 1px solid black;
+    border-radius: 15px;
+    height: 85vh;
+    width: 60vw;
+}
+
+img {
+    height: 10rem;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+.head {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25%;
+}
+
+.info {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 50%;
+    overflow: auto;
+    margin-left: 20px;
+    font-size: 1rem;
+}
