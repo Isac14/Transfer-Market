@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Transferência de Jogador</title>
+        <link rel="stylesheet" href="../styles/exchange.css" />
+        <link rel="icon" href="../Media/transferIcon.png" />
+    </head>
+
+    <body>
+        <header>
+            <h1>TransferZone</h1>
+        </header>
+
+        <main>
+            <div class="content">
+                <form id="transferForm">
+                    <label for="playerSelect">Escolha o Jogador:</label>
+                    <select id="playerSelect" name="playerSelect">
+                        <!-- Opções de jogadores aqui -->
+                    </select>
+
+                    <label for="teamSelect">Escolha o Time:</label>
+                    <select id="teamSelect" name="teamSelect">
+                        <!-- Opções de times aqui -->
+                    </select>
+
+                    <button type="submit">Transferir</button>
+                </form>
+
+                <div class="button-container">
+                    <button onclick="location.href='index.html'" type="button">
+                        Voltar
+                    </button>
+                </div>
+            </div>
+        </main>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Faker/3.0.1/faker.js"></script>
+        <script src="../scripts/exchange.js"></script>
+    </body>
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Cadastrar Time</title>
+        <link rel="stylesheet" href="../styles/registerTeam.css" />
+        <link rel="icon" href="../Media/transferIcon.png" />
+    </head>
+
+    <body>
+        <header>
+            <h1>TransferZone</h1>
+        </header>
+
+        <main>
+            <div class="content">
+                <form id="teamForm">
+                    <label for="nameTeam">Nome do Time:</label>
+                    <input type="text" id="nameTeam" name="nameTeam" required>
+
+                    <label for="city">Cidade:</label>
+                    <input type="text" id="city" name="city" required>
+
+                    <label for="country">País:</label>
+                    <input type="text" id="country" name="country" required>
+
+                    <label for="estructure">Estrutura Desportiva:</label>
+                    <input type="text" id="estructure" name="estructure" required>
+
+                    <label for="stadiumName">Nome do Estádio:</label>
+                    <input type="text" id="stadiumName" name="stadiumName" required>
+
+                    <label for="stadiumCapacity">Capacidade do Estádio (número máximo de torcedores):</label>
+                    <input type="number" id="stadiumCapacity" name="stadiumCapacity" required>
+
+                    <label for="trainingCenter">Centro de Treinamento (nome e detalhes):</label>
+                    <input type="text" id="trainingCenter" name="trainingCenter" required>
+
+                    <input type="submit" value="Cadastrar">
+                </form>
+            </div>
+            <div class="button-container">
+                <button onclick="location.href='index.html'" type="button">
+                    Voltar
+                </button>
+            </div>
+        </main>
+    </body>
+</html>

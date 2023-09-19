@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Cadastrar Jogador</title>
+        <link rel="stylesheet" href="../styles/registerPlayer.css" />
+        <link rel="icon" href="../Media/transferIcon.png" />
+    </head>
+
+    <body>
+        <header>
+            <h1>TransferZone</h1>
+        </header>
+
+        <main>
+            <div class="content">
+                <form action="/submit_player_info" method="post">
+                    <label for="Name">Nome completo:</label>
+                    <input type="text" id="Name" name="Name" required>
+
+                    <label for="age">Idade:</label>
+                    <input type="number" id="age" name="age" required>
+
+                    <label for="nationality">Nacionalidade:</label>
+                    <input type="text" id="nationality" name="nationality" required>
+
+                    <label for="city">Cidade:</label>
+                    <input type="text" id="city" name="city" required>
+
+                    <label for="state">Estado:</label>
+                    <input type="text" id="state" name="state" required>
+
+                    <label for="position">Posição:</label>
+                    <input type="text" id="position" name="position" required>
+
+                    <label for="currentTeam">Clube Atual:</label>
+                    <input type="text" id="currentTeam" name="currentTeam" required>
+
+                    <label for="previousTeams">Clubes Anteriores:</label>
+                    <input type="text" id="previousTeams" name="previousTeams">
+
+                    <label for="shirtNumber">Número da Camisa (se aplicável):</label>
+                    <input type="number" id="shirtNumber" name="shirtNumber">
+
+                    <label for="dominantFoot">Pé Dominante (Direito, Esquerdo, Ambos):</label>
+                    <input type="text" id="dominantFoot" name="dominantFoot" required>
+
+                    <h3>Características Físicas:</h3>
+
+                    <label for="height">Altura (em centímetros ou metros):</label>
+                    <input type="text" id="height" name="height" required>
+
+                    <label for="weight">Peso (em quilogramas):</label>
+                    <input type="text" id="weight" name="weight" required>
+
+                    <input type="submit" value="Submit">
+                </form>
+                <div class="button-container">
+                    <button onclick="location.href='index.html'" type="button">
+                        Voltar
+                    </button>
+                </div>
+            </div>
+        </main>
+    </body>
+</html>
