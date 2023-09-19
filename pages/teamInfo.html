@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Cadastrar Time</title>
+        <link rel="stylesheet" href="../styles/teamInfo.css" />
+        <link rel="icon" href="../Media/transferIcon.png" />
+    </head>
+
+    <body>
+        <header>
+            <h1>TransferZone</h1>
+        </header>
+
+        <main>
+            <div class="content">
+                <div class="head">
+                    <img src="../Media/soccerField.jpg" alt="" />
+
+                    <h1 id="name">Nome do Time</h1>
+                </div>
+
+                <div class="info">
+                    <h3>Informações Básicas:</h3>
+                    <p id="nameTeam">Nome do Time:</p>
+                    <p id="city">Cidade:</p>
+                    <p id="country">País:</p>
+                    <p id="estructure">Estrutura Desportiva:</p>
+                    <p id="stadiumName">Nome do Estádio:</p>
+                    <p id="stadiumCapacity">Capacidade do Estádio (número máximo de torcedores):</p>
+                    <p id="trainingCenter">Centro de Treinamento (nome e detalhes):</p>
+                </div>
+                <div class="button-container">
+                    <button onclick="location.href='index.html'" type="button">
+                        Voltar
+                    </button>
+                </div>
+            </div>
+        </main>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Faker/3.0.1/faker.js"></script>
+        <script src="../scripts/teamInfo.js"></script>
+    </body>
+</html>

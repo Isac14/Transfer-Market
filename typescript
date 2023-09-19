@@ -1,0 +1,564 @@
+Script started on Mon Sep 18 20:21:25 2023
+[1m[7m%[27m[1m[0m                                                                                                           ]2;thyagomoura@ThyagoMouras-MacBook-Air:~/Desktop/faculdade/Transfer-Market]1;..ansfer-Market]7;file://ThyagoMouras-MacBook-Air.local/Users/thyagomoura/Desktop/faculdade/Transfer-Market\[0m[27m[24m[J[35mthyagomoura@[35mThyagoMouras-MacBook-Air[00m [34m~/Desktop/faculdade/Transfer-Market[00m$ [K[20C [34m ✹[36m ✭[00m[32mmaster[00m[00m [32D[?1h=[?2004hnnode script.js[?1l>[?2004l
+]2;node script.js]1;node/Users/thyagomoura/Desktop/faculdade/Transfer-Market/script.js:1
+import faker from 'faker'
+^^^^^^
+
+SyntaxError: Cannot use import statement outside a module
+[90m    at internalCompileFunction (node:internal/vm:73:18)[39m
+[90m    at wrapSafe (node:internal/modules/cjs/loader:1177:20)[39m
+[90m    at Module._compile (node:internal/modules/cjs/loader:1221:27)[39m
+[90m    at Module._extensions..js (node:internal/modules/cjs/loader:1311:10)[39m
+[90m    at Module.load (node:internal/modules/cjs/loader:1115:32)[39m
+[90m   nnode script.js[?1l>[?2004l
+]2;node script.js]1;node/Users/thyagomoura/Desktop/faculdade/Transfer-Market/script.js:1
+import faker from 'faker'
+^^^^^^
+
+SyntaxError: Cannot use import statement outside a module
+[90m    at internalCompileFunction (node:internal/vm:73:18)[39m
+[90m    at wrapSafe (node:internal/modules/cjs/loader:1177:20)[39m
+[90m    at Module._compile (node:internal/modules/cjs/loader:1221:27)[39m
+[90m    at Module._extensions..js (node:internal/modules/cjs/loader:1311:10)[39m
+[90m    at Module.load (node:internal/modules/cjs/loader:1115:32)[39m
+[90m    at Module._load (node:internal/modules/cjs/loader:962:12)[39m
+[90m    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:83:12)[39m
+[90node script.js[?1l>[?2004l
+]2;node script.js]1;nodenode:internal/modules/cjs/loader:448
+      throw err;
+      ^
+
+Error: Cannot find module '/Users/thyagomoura/Desktop/faculdade/Transfer-Market/node_modules/faker/index.js'. Please verify that the package.json has a valid "main" entry
+[90m    at tryPackage (node:internal/modules/cjs/loader:440:19)[39m
+[90m    at Module._findPath (node:internal/modules/cjs/loader:689:18)[39m
+[90m    at Module._resolveFilename (node:internal/modules/cjs/loader:1058:27)[39m
+[90m    at Module._load (node:internal/modules/cjs/loader:925:27)[39mnode script.js[?1l>[?2004l
+]2;node script.js]1;nodenode:internal/modules/cjs/loader:448
+      throw err;
+      ^
+
+Error: Cannot find module '/Users/thyagomoura/Desktop/faculdade/Transfer-Market/node_modules/faker/index.js'. Please verify that the package.json has a valid "main" entry
+[90m    at tryPackage (node:internal/modules/cjs/loader:440:19)[39m
+[90m    at Module._findPath (node:internal/modules/cjs/loader:689:18)[39m
+[90m    at Module._resolveFilename (node:internal/modules/cjs/loader:1058:27)[39m
+[90m    at Module._load (node:internal/modules/cjs/loader:925:27)[39m
+[90m    at Module.require (node:internal/modules/cjs/loader:1139:19)[39m
+[90m    at require (node:internal/modules/helpers:121:18)[39m
+    at Object.<anonymous> [90m(/Users/thyagomoura/Desktop/faculdade/Transfer-Market/[39mscript.js:2:15[90m)[39m
+[90m    at Module._compile (node:internal/modules/cjs/loader:1257:14)[39m
+[90m    at Module._extensions..js (node:internal/modules/cjs/loader:1311:10)[39m
+[90m    at Module.load (node:internal/modules/cjs/loader:1115:32)[39m {
+  code: [32m'MODULE_NOT_FOUND'[39m,
+  path: [32m'/Users/thyagomoura/Desktop/faculdade/Transfer-Market/node_modules/faker/paccclear[?1l>[?2004l
+]2;clear]1;clear[H[2J[1m[7m%[27m[1m[0m                                                                                                           ]2;thyagomoura@ThyagoMouras-MacBook-Air:~/Desktop/faculdade/Transfer-Market]1;..ansfer-Market]7;file://ThyagoMouras-MacBook-Air.local/Users/thyagomoura/Desktop/faculdade/Transfer-Market\[0m[27m[24m[J[35mthyagomoura@[35mThyagoMouras-MacBook-Air[00m [34m~/Desktop/faculdade/Transfer-Market[00m$ [K[20C [34m ✹[36m ✭[00m[32mmaster[00m[00m [32D[?1h=[?2004hclearnode script.js[?1l>[?2004l
+]2;node script.js]1;node/Users/thyagomoura/Desktop/faculdade/Transfer-Market/script.js:1
+import faker from 'faker';
+^^^^^^
+
+SyntaxError: Cannot use import statement outside a module
+[90m    at internalCompileFunction (node:internal/vm:73:18)[39m
+[90m    at wrapSafe (node:internal/modules/cjs/loader:1177:20)[39m
+[90m    at Module._compile (node:internal/modules/cjs/loader:1221:27)[39m
+[90m    at Module._extensions..js (node:internal/modules/cjs/loader:1311:10)[39m
+[90m    at Module.load (node:internal/modules/cjs/loader:1115:32)[39m
+[90m    at Module._load (node:internal/modules/cjs/loader:962:12)[39m
+[90m    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:83:12)[39m
+[90m    at node:internal/main/run_main_module:23:47[39m
+
+Node.js v20.3.1
+[1m[7m%[27m[1m[0m                                                                                                           ]2;thyagomoura@ThyagoMouras-MacBook-Air:~/Desktop/faculdade/Transfer-Market]1;..ansfer-Market]7;file://ThyagoMouras-MacBook-Air.local/Users/thyagomoura/Desktop/faculdade/Transfer-Market\[0m[27m[24m[J[35mthyagomoura@[35mThyagoMouras-MacBook-Air[00m [34m~/Desktop/faculdade/Transfer-Market[00m$ [K[17C[31m1 ↵[00m [34m ✹[36m ✭[00m[32mmaster[00m[00m [32D[?1h=[?2004hnode script.js[?1l>[?2004l
+]2;node script.js]1;nodefile:///Users/thyagomoura/Desktop/faculdade/Transfer-Market/script.js:2
+const faker = require('faker')
+      ^
+
+SyntaxError: Identifier 'faker' has already been declared
+[90m    at DefaultModuleLoader.moduleStrategy (node:internal/modules/esm/translators:116:18)[39m
+[90m    at DefaultModuleLoader.moduleProvider (node:internal/modules/esm/loader:203:14)[39m
+[90m    at async link (node:internal/modules/esm/module_job:67:21)[39m
+
+Node.js v20.3.1
+[1m[7m%[27m[1m[0m                                                          node script.js[?1l>[?2004l
+]2;node script.js]1;nodefile:///Users/thyagomoura/Desktop/faculdade/Transfer-Market/script.js:2
+const faker = require('faker')
+      ^
+
+SyntaxError: Identifier 'faker' has already been declared
+[90m    at DefaultModuleLoader.moduleStrategy (node:internal/modules/esm/translators:116:18)[39m
+[90m    at DefaultModuleLoader.moduleProvider (node:internal/modules/esm/loader:203:14)[39m
+[90m    at async lnode script.js[?1l>[?2004l
+]2;node script.js]1;nodenode:internal/errors:496
+    ErrorCaptureStackTrace(err);
+    ^
+
+Error [ERR_MODULE_NOT_FOUND]: Cannot find package '/Users/thyagomoura/Desktop/faculdade/Transfer-Market/node_modules/faker/' imported from /Users/thyagomoura/Desktop/faculdade/Transfer-Market/script.js
+[90m    at new NodeError (node:internal/errors:405:5)[39m
+[90m    at legacyMainResolve (node:internal/modules/esm/resolve:192:9)[39m
+[90m    at packageResolve (node:internal/modules/esm/resolve:768:14)[39m
+[90m    at moduleResolve (node:internal/modules/esm/resnode script.js[?1l>[?2004l
+]2;node script.js]1;nodenode:internal/errors:496
+    ErrorCaptureStackTrace(err);
+    ^
+
+Error [ERR_MODULE_NOT_FOUND]: Cannot find package '/Users/thyagomoura/Desktop/faculdade/Transfer-Market/node_modules/faker/' imported from /Users/thyagomoura/Desktop/faculdade/Transfer-Market/script.js
+[90m    at new NodeError (node:internal/errors:405:5)[39m
+[90m    at legacyMainResolve (node:internal/modules/esm/resolve:192:9)[39m
+[90m    at packageResolve (node:internal/modules/esm/resolve:768:14)[39m
+[90m    at moduleResolve (node:internal/modules/esm/resolve:830:20)[39m
+[90m    at defaultResolve (node:internal/modules/esm/resolve:1035:11)[39m
+[90m    at DefaultModuleLoader.resolve (node:internal/modules/esm/loader:269:12)[39m
+[90m    at DefaultModuleLoader.getModuleJob (node:internal/modules/esm/loader:153:32)[39m
+[90m    at ModuleWrap.<anonymous> (node:internal/modules/esm/module_job:76:33)[39m
+[90m    at link (node:internal/modules/esm/module_job:75:36cclear[?1l>[?2004l
+]2;clear]1;clear[H[2J[1m[7m%[27m[1m[0m                                                                                                           ]2;thyagomoura@ThyagoMouras-MacBook-Air:~/Desktop/faculdade/Transfer-Market]1;..ansfer-Market]7;file://ThyagoMouras-MacBook-Air.local/Users/thyagomoura/Desktop/faculdade/Transfer-Market\[0m[27m[24m[J[35mthyagomoura@[35mThyagoMouras-MacBook-Air[00m [34m~/Desktop/faculdade/Transfer-Market[00m$ [K[20C [34m ✹[36m ✭[00m[32mmaster[00m[00m [32D[?1h=[?2004hnnpm install faker[?1l>[?2004l
+]2;npm install faker]1;npm[?25l([100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠧ idealTree:Transfer-Market: [7msill[0m [35midealTree[0m buildDeps[0m[K([100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠧ idealTree:Transfer-Market: [7msill[0m [35midealTree[0m buildDeps[0m[K([100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠧ idealTree:Transfer-Market: [7msill[0m [35midealTree[0m buildDeps[0m[K([100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠧ idealTree:Transfer-Market: [7msill[0m [35midealTree[0m buildDeps[0m[K([([100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠧ idealTree:Transfer-Market: [7msill[0m [35midealTree[0m buildDeps[0m[K([100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠧ idealTree:Transfer-Market: [7msill[0m [35midealTree[0m buildDeps[0m[K([100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠧ idealTree:Transfer-Market: [7msill[0m [35midealTree[0m buildDeps[0m[K([100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠧ idealTree:Transfer-Market: [7msill[0m [35midealTree[0m buildDeps[0m[K([100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠧ idealTree:Transfer-Market: [7msill[0m [35midealTree[0m buildDeps[0m[K([100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠧ idealTree:Transfer-Market: [7msill[0m [35midealTree[0m buildDeps[0m[K([100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠧ idealTree:Transfer-Market: [7msill[0m [35midealTree[0m buildDeps[0m[K([100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠧ idealTree:Transfer-Market: [7msill[0m [35midealTree[0m buildDeps[0m[K([100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠧ idealTree:Transfer-Market: [7msill[0m [35midealTree[0m buildDeps[0m[K([100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠧ idealTree:Transfer-Market: [7msill[0m [35midealTree[0m buildDeps[0m[K([100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠧ idealTree:Transfer-Market: [7msill[0m [35midealTree[0m buildDeps[0m[K([100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠧ idealTree:Transfer-Market: [7msill[0m [35midealTree[0m buildDeps[0m[K([100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠧ idealTree:Transfer-Market: [7msill[0m [35midealTree[0m buildDeps[0m[K([100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠧ idealTree:Transfer-Market: [7msill[0m [35midealTree[0m buildDeps[0m[K([100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠧ idealTree:Transfer-Market: [7msill[0m [35midealTree[0m buildDeps[0m[K([100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠧ idealTree:Transfer-Market: [7msill[0m [35midealTree[0m buildDeps[0m[K([100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠧ idealTree:Transfer-Market: [7msill[0m [35midealTree[0m buildDeps[0m[K([100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠧ idealTree:Transfer-Market: [7msill[0m [35midealTree[0m buildDeps[0m[K([100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠧ idealTree:Transfer-Market: [7msill[0m [35midealTree[0m buildDeps[0m[K([1m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠏ idealTree: [32;40mtiming[0m [35midealTree[0m Completed in 1023ms[0m[K[K[?25h
+up to date, audited 2 packages in 1s
+
+1 [31m[1mhigh[22m[39m severity vulnerability
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+[1m[7m%[27m[1m[0m                                                                                                           ]2;thyagomoura@ThyagoMouras-MacBook-Air:~/Desktop/faculdade/Transfer-Market]1;..ansfer-Market]7;file://ThyagoMouras-MacBook-Air.local/Users/thyagomoura/Desktop/faculdade/Transfer-Market\[0m[27m[24m[J[35mthyagomoura@[35mThyagoMouras-MacBook-Air[00m [34m~/Desktop/faculdade/Transfer-Market[00m$ [K[20C [34m ✹[36m ✭[00m[32mmaster[00m[00m [32D[?1h=[?2004hyyarn add faker[?1l>[?2004l
+]2;yarn add faker]1;yarnzsh: command not found: yarn
+[1m[7m%[27m[1m[0m                                                                                                           ]2;thyagomoura@ThyagoMouras-MacBook-Air:~/Desktop/faculdade/Transfer-Market]1;..ansfer-Market]7;file://ThyagoMouras-MacBook-Air.local/Users/thyagomoura/Desktoaculdade/Transfer-Market\[0m[27m[24m[J[35mthyagomoura@[35mThyagoMouras-MacBook-Air[00m [34m~/Desktop/faculdade/Transfer-Market[00m$ [K[20C [34m ✹[36m ✭[00m[32mmaster[00m[00m [32D[?1h=[?2004hyyarn add faker[?1l>[?2004l
+]2;yarn add faker]1;yarnzsh: command not found: yarn
+[1m[7m%[27m[1m[0m                                                                                                           ]2;thyagomoura@ThyagoMouras-MacBook-Air:~/Desktop/faculdade/Transfer-Market]1;..ansfer-Market]7;file://ThyagoMouras-MacBook-Air.local/Users/thyagomoura/Desktop/faculdade/Transfer-Market\[0m[27m[24m[J[35mthyagomoura@[35mThyagoMouras-MacBook-Air[00m [34m~/Desktop/faculdade/Transfer-Market[00m$ [K[15C[31m127 ↵[00m [34m ✹[36m ✭[00m[32mmaster[00m[00m [32D[?1h=[?2004hccec ckear[?1l>[?2004l
+]2;ckear]1;ckearzsh: command not found: ckear
+[1m[7m%[27m[1m[0m                                                                                                           ]2;thyagomoura@ThyagoMouras-MacBook-Air:~/Desktop/faculdade/Transfer-Market]1;..ansfer-Market]7;file://ThyagoMouras-MacBook-Air.local/Users/thyagomoura/Desktop/faculdade/Transfer-Market\[0m[27m[24m[J[35mthyagomoura@[35mThyagoMouras-MacBook-Air[00m [34m~/Desktop/faculdade/Transfer-Market[00m$ [K[15C[31m127 ↵[00m [34m ✹[36m ✭[00m[32m[7mnpm i @faker-js/faker[27m[K[21D[27mn[27mp[27mm[27m [27mi[27m [27m@[27mf[27ma[27mk[27me[27mr[27m-[27mj[27ms[27m/[27mf[27ma[27mk[27me[27mr[?1l>[?2004l
+]2;npm i @faker-js/faker]1;npm[?25l([100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠧ idealTree:Transfer-Market: [7msill[0m [35midealTree[0m buildDeps[0m[K([100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠧ idealTree:Transfer-Market: [7msill[0m [35midealTree[0m buildDeps[0m[K([100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠧ idealTr[7mnpm i @faker-js/faker[27m[K[21D[27mn[27mp[27mm[27m [27mi[27m [27m@[27mf[27ma[27mk[27me[27mr[27m-[27mj[27ms[27m/[27mf[27ma[27mk[27me[27mr[?1l>[?2004l
+]2;npm i @faker-js/faker]1;npm[?25l([100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠧ idealTree:Transfer-Market: [7msill[0m [35midealTree[0m buildDeps[0m[K([100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠧ idealTree:Transfer-Market: [7msill[0m [35midealTree[0m buildDeps[0m[K([100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠧ idealTree:Transfer-Market: [7msill[0m [35midealTree[0m buildDeps[0m[K([100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠧ idealTree:Transfer-Market: [7msill[0m [35midealTree[0m buildDeps[0m[K([100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠧ idealTree:Transfer-Market: [7msill[0m [35midealTree[0m buildDeps[0m[K([100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠧ idealTree:Transfer-Market: [7msill[0m [35midealTree[0m buildDeps[0m[K([100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠧ idealTree:Transfer-Market: [7msill[0m [35midealTree[0m buildDeps[0m[K([100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠧ idealTree:Transfer-Market: [7msill[0m [35midealTree[0m buildDeps[0m[K([100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠧ idealTree:Transfer-Market: [7msill[0m [35midealTree[0m buildDeps[0m[K([100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠧ idealTree:Transfer-Market: [7msill[0m [35midealTree[0m buildDeps[0m[K([100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠧ idealTree:Transfer-Market: [7msill[0m [35midealTree[0m buildDeps[0m[K([100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠧ idealTree:Transfer-Market: [7msill[0m [35midealTree[0m buildDeps[0m[K([100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠧ idealTree:Transfer-Market: [7msill[0m [35midealTree[0m buildDeps[0m[K([100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠧ idealTree:Transfer-Market: [7msill[0m [35midealTree[0m buildDeps[0m[K([100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠧ idealTree:Transfer-Market: [7msill[0m [35midealTree[0m buildDeps[0m[K([100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠧ idealTree:Transfer-Market: [7msill[0m [35midealTree[0m buildDeps[0m[K([100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠧ idealTree:Transfer-Market: [7msill[0m [35midealTree[0m buildDeps[0m[K([100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠧ idealTree:Transfer-Market: [7msill[0m [35midealTree[0m buildDeps[0m[K([100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠧ idealTree:Transfer-Market: [7msill[0m [35midealTree[0m buildDeps[0m[K([100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠧ idealTree:Transfer-Market: [7msill[0m [35midealTree[0m buildDeps[0m[K([100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠧ idealTree:Transfer-Market: [7msill[0m [35midealTree[0m buildDeps[0m[K([100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠧ idealTree:Transfer-Market: [7msill[0m [35midTree[0m buildDeps[0m[K([100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠧ idealTree:Transfer-Market: [7msill[0m [35midealTree[0m buildDeps[0m[K([100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠧ idealTree:Transfer-Market: [7msill[0m [35midealTree[0m buildDeps[0m[K([100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠧ idealTree:Transfer-Market: [7msill[0m [35midealTree[0m buildDeps[0m[K([100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠧ idealTree:Transfer-Market: [7msill[0m [35midealTreTree[0m buildDeps[0m[K([100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠧ idealTree:Transfer-Market: [7msill[0m [35midealTree[0m buildDeps[0m[K([100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠧ idealTree:Transfer-Market: [7msill[0m [35midealTree[0m buildDeps[0m[K([100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠧ idealTree:Transfer-Market: [7msill[0m [35midealTree[0m buildDeps[0m[K([100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠧ idealTree:Transfer-Market: [7msill[0m [35midealTree[0m buildDeps[0m[K([100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠧ idealTree:Transfer-Market: [7msill[0m [35midealTree[0m buildDeps[0m[K([100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠧ idealTree:Transfer-Market: [7msill[0m [35midealTree[0m buildDeps[0m[K([100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠧ idealTree:Transfer-Market: [7msill[0m [35midealTree[0m buildDeps[0m[K([100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠧ idealTree:Transfer-Market: [7msill[0m [35midealTree[0m buildDeps[0m[K([100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠧ idealTree:Transfer-Market: [7msill[0m [35midealTree[0m buildDeps[0m[K([100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠧ idealTree:Transfer-Market: [7msill[0m [35midealTree[0m buildDeps[0m[K([100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠧ idealTree:Transfer-Market: [7msill[0m [35midealTree[0m buildDeps[0m[K([100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠧ idealTree:Transfer-Market: [7msill[0m [35midealTree[0m buildDeps[0m[K([100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠧ idealTree:Transfer-Market: [7msill[0m [35midealTree[0m buildDeps[0m[K([100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠧ idealTree:Transfer-Market: [7msill[0m [35midealTree[0m buildDeps[0m[K([100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠧ idealTree:Transfer-Market: [7msill[0m [35midealTree[0m buildDeps[0m[K([100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠧ idealTree:Transfer-Market: [7msill[0m [35midealTree[0m buildDeps[0m[K([107;97m#########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠙ reify:@faker-js/faker: [7msill[0m [35maudit[0m bulk request { faker: [ '6.6.6' ], '@faker-js/fak[0m[K([107;97m#########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠹ reify:@faker-js/faker: [7msill[0m [35maudit[0m bulk request { faker: [ '6.6.6' ], '@faker-js/fak[0m[K([107;97m#########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠹ reify:@faker-js/faker: [7msill[0m [35maudit[0m bulk request { faker: [ '6.6.6' ], '@faker-js/fak[0m[K([107;97m#########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠹ reify:@faker-js/faker: [7msill[0m [35maudit[0m bulk request { faker: [ '6.6.6' ], '@faker-js/fak[0m[K([107;97m#########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠹ reify:@faker-js/faker: [7msill[0m [35maudit[0m bulk request { faker: [ '6.6.6' ], '@faker-js/fak[0m[K([107;97m#########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠹ reify:@faker-js/faker: [7msill[0m [35maudit[0m bulk request { faker: [ '6.6.6' ], '@faker-js/fak[0m[K([10aker-js/faker: [7msill[0m [35maudit[0m bulk request { faker: [ '6.6.6' ], '@faker-js/fak[0m[K([107;97m#########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠹ reify:@faker-js/faker: [7msill[0m [35maudit[0m bulk request { faker: [ '6.6.6' ], '@faker-js/fak[0m[K([107;97m#########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠹ reify:@faker-js/faker: [7msill[0m [35maudit[0m bulk request { faker: [ '6.6.6' ], '@faker-js/fak[0m[K([107;97m#########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠹ reify:@faker-js/faker: [7msill[0m [35maudit[0m bulk request { faker: [ '6.6.aker-js/faker: [7msill[0m [35maudit[0m bulk request { faker: [ '6.6.6' ], '@faker-js/fak[0m[K([107;97m#########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠹ reify:@faker-js/faker: [7msill[0m [35maudit[0m bulk request { faker: [ '6.6.6' ], '@faker-js/fak[0m[K([107;97m#########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠹ reify:@faker-js/faker: [7msill[0m [35maudit[0m bulk request { faker: [ '6.6.6' ], '@faker-js/fak[0m[K([107;97m#########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠹ reify:@faker-js/faker: [7msill[0m [35maudit[0m bulk request { faker: [ '6.6.6' ], '@faker-js/fak[0m[K([107;97m#########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠹ reify:@faker-js/faker: [7msill[0m [35maudit[0m bulk request { faker: [ '6.6.6' ], '@faker-js/fak[0m[K([107;97m#########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠹ reify:@faker-js/faker: [7msill[0m [35maudit[0m bulk request { faker: [ '6.6.6' ], '@faker-js/fak[0m[K([107;97m#########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠹ reify:@faker-js/faker: [7msill[0m [35maudit[0m bulk request { faker: [ '6.6.6' ], '@faker-js/fak[0m[K([107;97m#########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠹ reify:@faker-js/faker: [7msill[0m [35maudit[0m bulk request { faker: [ '6.6.6' ], '@faker-js/fak[0m[K([107;97m#########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠹ reify:@faker-js/faker: [7msill[0m [35maudit[0m bulk request { faker: [ '6.6.6' ], '@faker-js/fak[0m[K([107;97m#########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠹ reify:@faker-js/faker: [7msill[0m [35maudit[0m bulk request { faker: [ '6.6.6' ], '@faker-js/fak[0m[K([107;97m#########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠹ reify:@faker-js/faker: [7msill[0m [35maudit[0m bulk request { faker: [ '6.6.6' ], '@faker-js/fak[0m[K([107;97m#########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠹ reify:@faker-js/faker: [7msill[0m [35maudit[0m bulk request { faker: [ '6.6.6' ], '@faker-js/fak[0m[K([107;97m#########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠹ reify:@faker-js/faker: [7msill[0m [35maudit[0m bulk request { faker: [ '6.6.6' ], '@faker-js/fak[0m[K([107;97m#########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠹ reify:@faker-js/faker: [7msill[0m [35maudit[0m bulk request { faker: [ '6.6.6' ], '@faker-js/fak[0m[K([107;97m#########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠹ reify:@faker-js/faker: [7msill[0m [35maudit[0m bulk request { faker: [ '6.6.6' ], '@faker-js/fak[0m[K([107;97m#########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠹ reify:@faker-js/faker: [7msill[0m [35maudit[0m bulk request { faker: [ '6.6.6' ], '@faker-js/fak[0m[K([107;97m#########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠹ reify:@faker-js/faker: [7msill[0m [35maudit[0m bulk request { faker: [ '6.6.6' ], '@faker-js/fak[0m[K([107;97m#########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠹ reify:@faker-js/faker: [7msill[0m [35maudit[0m bulk request { faker: [ '6.6.6' ], '@faker-js/fak[0m[K([107;97m#########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠹ reify:@faker-js/faker: [7msill[0m [35maudit[0m bulk request { faker: [ '6.6.6' ], '@faker-js/fak[0m[K([107;97m#########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠹ reify:@faker-js/faker: [7msill[0m [35maudit[0m bulk request { faker: [ '6.6.6' ], '@faker-js/fak[0m[K([107;97m#########[0m[100;90m [35maudit[0m bulk request { faker: [ '6.6.6' ], '@faker-js/fak[0m[K([107;97m#########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠹ reify:@faker-js/faker: [7msill[0m [35maudit[0m bulk request { faker: [ '6.6.6' ], '@faker-js/fak[0m[K([107;97m#########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠹ reify:@faker-js/faker: [7msill[0m [35maudit[0m bulk request { faker: [ '6.6.6' ], '@faker-js/fak[0m[K([107;97m#########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠹ reify:@faker-js/faker: [7msill[0m [35maudit[0m bulk request { faker: [ '6.6.6' ], '@faker-js/fak[0m0m [35maudit[0m bulk request { faker: [ '6.6.6' ], '@faker-js/fak[0m[K([107;97m#########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠹ reify:@faker-js/faker: [7msill[0m [35maudit[0m bulk request { faker: [ '6.6.6' ], '@faker-js/fak[0m[K([107;97m#########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠹ reify:@faker-js/faker: [7msill[0m [35maudit[0m bulk request { faker: [ '6.6.6' ], '@faker-js/fak[0m[K([107;97m#########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠹ reify:@faker-js/faker: [7msill[0m [35maudit[0m bulk request { faker: [ '6.6.6' ], '@faker-js/fak[0m[K([107;97m#########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠹ reify:@faker-js/faker: [7msill[0m [35maudit[0m bulk request { faker: [ '6.6.6' ], '@faker-js/fak[0m[K([107;97m#########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠹ reify:@faker-js/faker: [7msill[0m [35maudit[0m bulk request { faker: [ '6.6.6' ], '@faker-js/fak[0m[K([107;97m#########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠹ reify:@faker-js/faker: [7msill[0m [35maudit[0m bulk request { faker: [ '6.6.6' ], '@faker-js/fak[0m[K([107;97m#########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠹ reify:@faker-js/faker: [7msill[0m [35maudit[0m bulk request { faker: [ '6.6.6' ], '@faker-js/fak[0m[K([107;97m#########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠹ reify:@faker-js/faker: [7msill[0m [35maudit[0m bulk request { faker: [ '6.6.6' ], '@faker-js/fak[0m[K([107;97m#########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠹ reify:@faker-js/faker: [7msill[0m [35maudit[0m bulk request { faker: [ '6.6.6' ], '@faker-js/fak[0m[K([107;97m#########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠹ reify:@faker-js/faker: [7msill[0m [35maudit[0m bulk request { faker: [ '6.6.6' ], '@faker-js/fak[0m[K([107;97m#########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠹ reify:@faker-js/faker: [7msill[0m [35maudit[0m bulk request { faker: [ '6.6.6' ], '@faker-js/fak[0m[K([107;97m#########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠹ reify:@faker-js/faker: [7msill[0m [35maudit[0m bulk request { faker: [ '6.6.6' ], '@faker-js/fak[0m[K([107;97m#########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠹ reify:@faker-js/faker: [7msill[0m [35maudit[0m bulk request { faker: [ '6.6.6' ], '@faker-js/fak[0m[K([107;97m#########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠹ reify:@faker-js/faker: [7msill[0m [35maudit[0m bulk request { faker: [ '6.6.6' ], '@faker-js/fak[0m[K([107;97m#########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠹ reify:@faker-js/faker: [7msill[0m [35maudit[0m bulk request { faker: [ '6.6.6' ], '@faker-js/fak[0m[K([107;97m#########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠹ reify:@faker-js/faker: [7msill[0m [35maudit[0m bulk request { faker: [ '6.6.6' ], '@faker-js/fak[0m[K([107;97m#########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠹ reify:@faker-js/faker: [7msill[0m [35maudit[0m bulk request { faker: [ '6.6.6' ], '@faker-js/fak[0m[K([107;97m#########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠹ reify:@faker-js/faker: [7msill[0m [35maudit[0m bulk request { faker: [ '6.6.6' ], '@faker-js/fak[0m[K([107;97m#########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠹ reify:@faker-js/faker: [7msill[0m [35maudit[0m bulk request { faker: [ '6.6.6' ], '@faker-js/fak[0m[K([107;97m#########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂�quest { faker: [ '6.6.6' ], '@faker-js/fak[0m[K([107;97m#########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠹ reify:@faker-js/faker: [7msill[0m [35maudit[0m bulk request { faker: [ '6.6.6' ], '@faker-js/fak[0m[K([107;97m#########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠹ reify:@faker-js/faker: [7msill[0m [35maudit[0m bulk request { faker: [ '6.6.6' ], '@faker-js/fak[0m[K([107;97m#########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠹ reify:@faker-js/faker: [7msill[0m [35maudit[0m bulk request { faker: [ '6.6.6' ], '@faker-js/fak[0m[K([107;97m#########[0quest { faker: [ '6.6.6' ], '@faker-js/fak[0m[K([107;97m#########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠹ reify:@faker-js/faker: [7msill[0m [35maudit[0m bulk request { faker: [ '6.6.6' ], '@faker-js/fak[0m[K([107;97m#########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠹ reify:@faker-js/faker: [7msill[0m [35maudit[0m bulk request { faker: [ '6.6.6' ], '@faker-js/fak[0m[K([107;97m#########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠹ reify:@faker-js/faker: [7msill[0m [35maudit[0m bulk request { faker: [ '6.6.6' ], '@faker-js/fak[0m[K([107;97m#########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠹ reify:@faker-js/faker: [7msill[0m [35maudit[0m bulk request { faker: [ '6.6.6' ], '@faker-js/fak[0m[K([107;97m#########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠹ reify:@faker-js/faker: [7msill[0m [35maudit[0m bulk request { faker: [ '6.6.6' ], '@faker-js/fak[0m[K([107;97m#########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠹ reify:@faker-js/faker: [7msill[0m [35maudit[0m bulk request { faker: [ '6.6.6' ], '@faker-js/fak[0m[K([107;97m#########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠹ reify:@faker-js/faker: [7msill[0m [35maudit[0m bulk request { faker: [ '6.6.6' ], '@faker-js/fak[0m[K([107;97m#########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠹ reify:@faker-js/faker: [7msill[0m [35maudit[0m bulk request { faker: [ '6.6.6' ], '@faker-js/fak[0m[K([107;97m#########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠹ reify:@faker-js/faker: [7msill[0m [35maudit[0m bulk request { faker: [ '6.6.6' ], '@faker-js/fak[0m[K([107;97m#########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠹ reify:@faker-js/faker: [7msill[0m [35maudit[0m bulk request { faker: [ '6.6.6' ], '@faker-js/fak[0m[K[K[?25h
+added 1 package, and audited 3 packages in 6s
+
+1 package is looking for funding
+  run `npm fund` for details
+
+1 [31m[1mhigh[22m[39m severity vulnerability
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+[1m[7m%[27m[1m[0m                                                                                                           ]2;thyagomoura@ThyagoMouras-MacBook-Air:~/Desktop/faculdade/Transfer-Market]1;..ansfer-Market]7;file://ThyagoMouras-MacBook-Air.local/Users/thyagomoura/Desktop/faculdade/Transfer-Market\[0m[27m[24m[J[35mthyagomoura@[35mThyagoMouras-MacBook-Air[00m [34m~/Desktop/faculdade/Transfer-Market[00m$ [K[20C [34m ✹[36m ✭[00m[32mmaster[00m[00m [32D[?1h=[?2004h[7mnpm audit fix --force[27m[K[21D[27mn[27mp[27mm[27m [27ma[27mu[27md[27mi[27mt[27m [27mf[27mi[27mx[27m [27m-[27m-[27mf[27mo[27mr[27mc[27me[?1l>[?2004l
+]2;npm audit fix --force]1;npm[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35musing --force[0m Recommended protections disabled.
+[0m[?25l([100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠸ audit: [32;40mtiming[0m [35marborist:ctor[0m Completed in 1ms[0m[K([100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠸ audit: [32;40mtiming[0m [35marborist:ctor[0m Completed in 1ms[0m[K([100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠸ audit: [32;40mtiming[0m [35marborist:ctor[0m Completed in 1ms[0m[K([100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠸ audit: [32;40mtiming[0m[ '8.0.2' ], faker: [ '5.[0m[K([107;97m############[0m[100;90m⠂⠂⠂⠂⠂⠂[0m) ⠼ reify:faker: [7msill[0m [35maudit[0m bulk request { '@faker-js/faker': [ '8.0.2' ], faker: [ '5.[0m[K([107;97m############[0m[100;90m⠂⠂⠂⠂⠂⠂[0m) ⠼ reify:faker: [7msill[0m [35maudit[0m bulk request { '@faker-js/faker': [ '8.0.2' ], faker: [ '5.[0m[K([107;97m############[0m[100;90m⠂⠂⠂⠂⠂⠂[0m) ⠼ reify:faker: [7msill[0m [35maudit[0m bulk request { '@faker-js/faker': [ '8.0.2' ], faker: [ '5.[0m[K([107;97m############[0m[100;90m⠂⠂⠂⠂⠂⠂[0m[ '8.0.2' ], faker: [ '5.[0m[K([107;97m############[0m[100;90m⠂⠂⠂⠂⠂⠂[0m) ⠼ reify:faker: [7msill[0m [35maudit[0m bulk request { '@faker-js/faker': [ '8.0.2' ], faker: [ '5.[0m[K([107;97m############[0m[100;90m⠂⠂⠂⠂⠂⠂[0m) ⠼ reify:faker: [7msill[0m [35maudit[0m bulk request { '@faker-js/faker': [ '8.0.2' ], faker: [ '5.[0m[K([107;97m############[0m[100;90m⠂⠂⠂⠂⠂⠂[0m) ⠼ reify:faker: [7msill[0m [35maudit[0m bulk request { '@faker-js/faker': [ '8.0.2' ], faker: [ '5.[0m[K([107;97m############[0m[100;90m⠂⠂⠂⠂⠂⠂[0m) ⠼ reify:faker: [7msill[0m [35maudit[0m bulk request { '@faker-js/faker': [ '8.0.2' ], faker: [ '5.[0m[K([107;97m############[0m[100;90m⠂⠂⠂⠂⠂⠂[0m) ⠼ reify:faker: [7msill[0m [35maudit[0m bulk request { '@faker-js/faker': [ '8.0.2' ], faker: [ '5.[0m[K([107;97m############[0m[100;90m⠂⠂⠂⠂⠂⠂[0m) ⠼ reify:faker: [7msill[0m [35maudit[0m bulk request { '@faker-js/faker': [ '8.0.2' ], faker: [ '5.[0m[K([107;97m############[0m[100;90m⠂⠂⠂⠂⠂⠂[0m) ⠼ reify:faker: [7msill[0m [35maudit[0m bulk request { '@faker-js/faker': [ '8.0.2' ], faker: [ '5.[0m[K([107;97m############[0m[100;90m⠂⠂⠂⠂⠂⠂[0m) ⠏ reify:faker: [7msill[0m [35maudit[0m bulk request { '@faker-js/faker': [ '8.0.2' ], faker: [ '5.[0m[K([107;97m############[0m[100;90m⠂⠂⠂⠂⠂⠂[0m) ⠏ reify:faker: [7msill[0m [35maudit[0m bulk request { '@faker-js/faker': [ '8.0.2' ], faker: [ '5.[0m[K([107;97m############[0m[100;90m⠂⠂⠂⠂⠂⠂[0m) ⠏ reify:faker: [7msill[0m [35maudit[0m bulk request { '@faker-js/faker': [ '8.0.2' ], faker: [ '5.[0m[K([107;97m############[0m[100;90m⠂⠂⠂⠂⠂⠂[0m) ⠏ reify:faker: [7msill[0m [35maudit[0m bulk request { '@faker-js/faker': [ '8.0.2' ], faker: [ '5.[0m[K([107;97m############[0m[100;90m⠂⠂⠂⠂⠂⠂[0m) ⠏ reify:faker: [7msill[0m [35maudit[0m bulk request { '@faker-js/faker': [ '8.0.2' ], faker: [ '5.[0m[K([107;97m############[0m[100;90m⠂⠂⠂⠂⠂⠂[0m) ⠏ reify:faker: [7msill[0m [35maudit[0m bulk request { '@faker-js/faker': [ '8.0.2' ], faker: [ '5.[0m[K([107;97m############[0m[100;90m⠂⠂⠂⠂⠂⠂[0m) ⠏ reify:faker: [7msill[0m [35maudit[0m bulk request { '@faker-js/faker': [ '8.0.2' ], faker: [ '5.[0m[K([107;97m############[0m[100;90m⠂⠂⠂⠂⠂⠂[0m) ⠏ reify:faker: [7msill[0m [35maudit[0m bulk request { '@faker-js/faker': [ '8.0.2' ], faker: [ '5.[0m[K([107;97m############[0m[100;90m⠂⠂⠂⠂⠂⠂[0m) ⠏ reify:faker: [7msill[0m [35maudit[0m bulk request { '@faker-js/faker': [ '8.0.2' ], faker: [ '5.[0m[K([107;97m############[0m[100;90m⠂⠂⠂⠂⠂⠂[0m) ⠏ reify:faker: [7msill[0m [35maudit[0m bulk request { '@faker-js/faker': [ '8.0.2' ], faker: [ '5.[0m[K([107;97m############[0m[100;90m⠂⠂⠂⠂⠂⠂[0m) ⠏ reify:faker: [7msill[0m [35maudit[0m bulk request { '@faker-js/faker': [ '8.0.2' ], faker: [ '5.[0m[K([107;97m############[0m[100;90m⠂⠂⠂⠂⠂⠂[0m) ⠏ reify:faker: [7msill[0m [35maudit[0m bulk request { '@faker-js/faker': [ '8.0.2' ], faker: [ '5.[0m[K([107;97m############[0m[100;90m⠂⠂⠂⠂⠂⠂[0m) ⠏ reify:faker: [7msill[0m [35maudit[0m bulk request { '@faker-js/faker': [ '8.0.2' ], faker: [ '5.[0m[K([107;97m############[0m[100;90m⠂�faker': [ '8.0.2' ], faker: [ '5.[0m[K[K[?25h
+changed 1 package, and audited 3 packages in 2s
+
+1 package is looking for funding
+  run `npm fund` for details
+
+found [32m[1m0[22m[39m vulnerabilities
+[1m[7m%[27m[1m[0m                                                                                                           ]2;thyagomoura@ThyagoMouras-MacBook-Air:~/Desktop/faculdade/Transfer-Market]1;..ansfer-Market]7;file://ThyagoMouras-MacBook-Air.local/Users/thyagomoura/Desktop/faculdade/Transfer-Market\[0m[27m[24m[J[35mthyagomoura@[35mThyagoMouras-MacBook-Air[faker': [ '8.0.2' ], faker: [ '5.[0m[K[K[?25h
+changed 1 package, and audited 3 packages in 2s
+
+1 package is looking npm audit fix --force[K[17Di @faker-js/faker[?1l>[?2004l
+]2;npm i @faker-js/faker]1;npm[?25l([107;97m#########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠇ idealTree: [32;40mtiming[0m [35midealTree[0m Completed in 28ms[0m[K([107;97m#########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠏ idealTree: [32;40mtiming[0m [35midealTree[0m Completed in 28ms[0m[K([107;97m#########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠏ idealTree: [32;40mtiming[0m [35midealTree[0m Completed in 28ms[0m[K([107;97m#########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠏ idealTree: [32;40mtiming[0m [35midealTree[0m Completed in 28ms[0m[K([107;97m#########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠏ idealTree: [32;40mtiming[0m [35midealTree[0m Completed in 28ms[0m[K([107;97m#########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠏ idealTree: [32;40mtiming[0m [35midealTree[0m Completed in 28ms[0m[K[K[?25h
+up to date, audited 3 packages in 470ms
+
+1 package is looking for funding
+  run `npm fund` for details
+
+found [32m[1m0[22m[39m vulnerabilities
+[1m[7m%[27m[1m[0m                                                                                                           ]2;thyagomoura@ThyagoMouras-MacBook-Air:~/Desktop/faculdade/Transfer-Market]1;..ansfer-Market]7;file://ThyagoMouras-MacBook-Air.local/Users/thyagomoura/Desktop/faculdade/Transfer-Market\[0m[27m[24m[J[35mthyagomoura@[35mThyagoMouras-MacBook-Air[00m [34m~/Desktop/faculdade/Transfer-Market[00m$ [K[20C [34m ✹[36m ✭[00m[32mmaster[00m[00m [32D[?1h=[?2004hcclear[?1l>[?2004l
+]2;clear]1;clear[H[2J[1m[7m%[27m[1m[0m                                                                                                           ]2;thyagomoura@ThyagoMouras-MacBook-Air:~/Desktop/faculdade/Transfer-Market]1;..ansfer-Market]7;file://ThyagoMouras-MacBook-Air.local/Users/thyagomoura/Desktop/faculdade/Transfer-Market\[0m[27m[24m[J[35mthyagomoura@[35mThyagoMouras-MacBook-Air[00m [34m~/Desktop/faculdade/Transfer-Market[00m$ [K[20C [34m ✹[36m ✭[00m[32mmaster[00m[00m [32D[?1h=[?2004hclear     clearnpm i @faker-j[?1l>[?2004l
+]2;clear]1;clear[H[2J[1m[7m%[27m[1m[0m                                                                                                           ]2;thyagomoura@ThyagoMouras-MacBook-Air:~/Desktop/faculdade/Transfer-Market]1;..ansfer-Market]7;file://ThyagoMouras-MacBook-Air.local/Users/thyagomoura/Desktop/faculdade/Transfer-Market\[0m[27m[24m[J[35mthyagomoura@[35mThyagoMouras-MacBook-Air[00m [34m~/Desktop/faculdade/Transfer-Market[00m$ [K[20C [34m ✹[36m ✭[00m[32mmaster[00m[00m [32D[?1h=[?2004hclear     clearnpm i @faker-js/faker[K[17Daudit fix --force[17Di @faker-js/faker[21Dclear[K[15C [34m ✹[36m ✭[00m[32mmaster[00m[00m [27Dnpm i @faker-js/faker[K[21Dclear[K[15C [34m ✹[36m ✭[00m[32mmaster[00m[00m [27Dck[3Cyarn add faker[14Dnpm install faker[17Dclear            [12Dnode script.js[?1l>[?2004l
+]2;node script.js]1;nodefile:///Users/thyagomoura/Desktop/faculdade/Transfer-Market/script.js:11
+	people.push(person)
+	^
+
+ReferenceError: people is not defined
+    at [90mfile:///Users/thyagomoura/Desktop/faculdade/Transfer-Market/[39mscript.js:11:2
+[90m    at ModuleJob.run (node:internal/modules/esm/module_job:192:25)[39m
+[90m    at async DefaultModuleLoader.import (node:internal/modules/esm/loader:246:24)[39m
+[90m    at async loadESM (node:internal/process/esm_loader:40:7)[39m
+[90m    at async handleMacclear[?1l>[?2004l
+]2;clear]1;clear[H[2J[1m[7m%[27m[1m[0m                                                                                                           ]2;thyagomoura@ThyagoMouras-MacBook-Air:~/Desktop/faculdade/Transfer-Market]1;..ansfer-Market]7;file://ThyagoMouras-MacBook-Air.local/Users/thyagomoura/Desktop/faculdade/Transfer-Market\[0m[27m[24m[J[35mthyagomoura@[35mThyagoMouras-MacBook-Air[00m [34m~/Desktop/faculdade/Transfer-Market[00m$ [K[20C [34m ✹[36m ✭[00m[32mmaster[00m[00m [32D[?1h=[?2004hclear     clearnode sccclear[?1l>[?2004l
+]2;clear]1;clear[H[2J[1m[7m%[27m[1m[0m                                                                                                           ]2;thyagomoura@ThyagoMouras-MacBook-Air:~/Desktop/faculdade/Transfer-Market]1;..ansfer-Market]7;file://ThyagoMouras-MacBook-Air.local/Users/thyagomoura/Desktop/faculdade/Transfer-Market\[0m[27m[24m[J[35mthyagomoura@[35mThyagoMouras-MacBook-Air[00m [34m~/Desktop/faculdade/Transfer-Market[00m$ [K[20C [34m ✹[36m ✭[00m[32mmaster[00m[00m [32D[?1h=[?2004hclear     clearnode script.js[?1l>[?2004l
+]2;node script.js]1;node[
+  {
+    firstName: [32m'Baylee'[39m,
+    lastName: [32m'Bode'[39m,
+    image: [32m'https://cdn.fakercloud.com/avatars/bartoszdawydzik_128.jpg'[39m
+  },
+  {
+    firstName: [32m'Moshe'[39m,
+    lastName: [32m'Lind'[39m,
+    image: [32m'https://cdn.fakercloud.com/avatars/michaelmartinho_128.jpg'[39m
+  },
+  {
+    firstName: [32m'Mckenna'[39m,
+    lastName: [32m'Conroy'[39m,
+    image: [32m'https://cdn.fakercloud.com/avatars/nwdsha_128.jpg'[39m
+  },
+  {
+    firstName: [32m'Benjamin'[39m,
+    lastName: [32m'Franecki'[39m,
+    image: [32m'https://cdn.fakercloud.com/avatars/thomasschrijer_128.jpg'[39m
+  },
+  {
+    firstName: [32m'Frida'[39m,
+    lastName: [32m'Frami'[39m,cclear[?1l>[?2004l
+]2;clear]1;clear[H[2J[1m[7m%[27m[1m[0m                                                                                                           ]2;thyagomoura@ThyagoMouras-MacBook-Air:~/Desktop/faculdade/Transfer-Market]1;..ansfer-Market]7;file://ThyagoMouras-MacBook-Air.local/Users/thyagomoura/Desktop/faculdade/Transfer-Market\[0m[27m[24m[J[35mthyagomoura@[35mThyagoMouras-MacBook-Air[00m [34m~/Desktop/faculdade/Transfer-Market[00m$ [K[20C [34m ✹[36m ✭[00m[32mmaster[00m[00m [32D[?1h=[?2004hclearnode script.js[?1l>[?2004l
+]2;node script.js]1;nodefile:///Users/thyagomoura/Desktop/faculdade/Transfer-Market/script.js:8
+		age: faker.random.age(),
+		                  ^
+
+TypeError: faker.random.age is not a function
+    at [90mfile:///Users/thyagomoura/Desktop/faculdade/Transfer-Market/[39mscript.js:8:21
+[90m    at ModuleJob.run (node:internal/modules/esm/module_job:192:25)[39m
+[90m    at async DefaultModuleLoader.import (node:internal/modules/esm/loader:246:24)[39m
+[90m    at async loadESM (node:internal/process/esm_loader:40:7)[39m
+[90m    at async handleMainPromise (node:internal/modules/run_main:66:12)[39m
+
+Node.js v20.3.1
+[1m[7m%[27m[1m[0m                                                                                                           ]2;thyagomoura@ThyagoMouras-MacBook-Air:~/Desktop/faculdade/Transfer-Market]1;..ansfer-Market]7;file://ThyagoMouras-MacBook-Air.local/Users/thyagomoura/Desktop/faculdade/Transfer-Market\[0m[27m[24m[J[35mthyagomoura@[35mThyagoMouras-MacBook-Air[00m [34m~/Desktop/faculdade/Transfer-Market[00m$ [K[17C[31m1 ↵[00m [34m ✹[36m ✭[00m[32mmaster[00m[00m [32D[?1h=[?2004hnode script.js[?1l>[?2004l
+]2;node script.js]1;node[ { firstName: [32m'Carmela'[39m, age: [90mundefined[39m } ]
+[1m[7m%[27m[1m[0m                                                                                                           ]2;thyagomoura@ThyagoMouras-MacBook-Air:~/Desktop/faculdade/Transfer-Market]1;..ansfer-Market]7;file://ThyagoMouras-MacBook-Air.local/Users/thyagomoura/Desktop/faculdade/Transfer-Market\[0m[27m[24m[J[35mthyagomoura@[35mThyagoMouras-MacBook-Air[00m [34m~/Desktop/faculdade/Transfer-Market[00m$ [K[20C [34m ✹[36m ✭[00m[32mnode script.js[?1l>[?2004l
+]2;node script.js]1;node[ { firstName: [32m'Carmela'[39m, age: [90mundefined[39m } ]
+[1m[7m%[27m[1m[0m                                                                                                           ]2;thyagomoura@ThyagoMouras-MacBook-Air:~/Desktop/faculdade/Transfer-Market]1;..ansfer-Market]7;file://ThyagoMouras-MacBook-Air.local/Users/thyagomoura/Desktop/faculdade/Transfer-Market\[0m[27m[24m[J[35mthyagomoura@[35mThyagoMouras-MacBook-Air[00m [34m~/Desktop/faculdade/Transfer-Market[00m$ [K[20C [34m ✹[36m ✭[00m[32mmaster[00m[00m [32D[?1h=[?2004hnode script.js[?1l>[?2004l
+]2;node script.js]1;nodeDeprecation Warning: faker.random.number is now locatenode script.js[?1l>[?2004l
+]2;node script.js]1;node[ { firstName: [32m'Demond'[39m, age: [90mundefined[39m } ]
+[1m[7m%[27m[1m[0m                                                                                                           ]2;thyagomoura@ThyagoMouras-MacBook-Air:~/Desktop/faculdade/Transfer-Market]1;..ansfer-Market]7;file://ThyagoMouras-MacBook-Air.local/Users/thyagomoura/Desktop/faculdade/Transfer-Market\[0m[27m[24m[J[35mthyagomoura@[35mThyagoMouras-MacBook-Air[00m [34m~/Desktop/faculdade/Transfer-Market[00m$ [K[20C [34m ✹[36m ✭[00m[32mmaster[00m[00m [32D[?1h=[?2004hnode script.js[?1l>[?2004l
+]2;node script.js]1;nodefile:///Users/thyagomoura/Desktop/faculdade/Transfer-Market/script.js:8
+		age: faker.date.birthdate({ min: 18, max: 65, mode: 'age' }) ,
+		                ^
+
+TypeError: faker.date.birthdate is not a function
+    at [90mfile:///Users/thyagomoura/Desktop/faculdade/Transfer-Market/[39mscript.js:8:19
+[90m    at ModuleJob.run (node:internal/modules/esm/module_job:192:25)[39m
+[90m    at async DefaultModuleLoader.import (node:internal/modules/esm/loader:246:24)[39m
+[90m    at async loadESM (node:internal/process/esm_loader:40:7)[39m
+[90m    at async handleMainPromise (node:internal/modules/run_main:66:12)[39m
+
+Node.js v20.3.1
+[1m[7m%[27m[1m[0m                                                                                                           ]2;thyagomoura@ThyagoMouras-MacBook-Air:~/Desktop/faculdade/Transfer-Market]1;..ansfer-Market]7;file://ThyagoMouras-MacBook-Air.local/Users/thyagomoura/Desktop/faculdade/Transfer-Market\[0m[27m[24m[J[35mthyagomoura@[35mThyagoMouras-MacBook-Air[00m [34m~/Desktop/faculdade/Transfer-Market[00m$ [K[17C[31m1 ↵[00m [34m ✹[36m ✭[00m[32mmaster[00m[00m [32D[?1h=[?2004hnode script.js[?1l>[?2004l
+]2;node script.js]1;nodefile:///Users/thyagomoura/Desktop/faculdade/Transfer-Market/script.js:8
+		age: faker.date.birthdate() ,
+		                ^
+
+TypeError: faker.date.birthdate is not a function
+    at [90mfile:///Users/thyagomoura/Desktop/faculdade/Transfer-Market/[39mscript.js:8:19
+[90m    at ModuleJob.run (node:internal/modules/esm/module_job:192:25)[39m
+[90m    at async DefaultModuleLoader.import (node:internal/modules/esm/loader:246:24)[39m
+[90m    at async loadESM (node:internal/process/esm_loader:40:7)[39m
+[90m    at async handleMainPromise (node:internal/modules/run_main:66:12)[39m
+
+Node.js v20.3.1
+[1m[7m%[27m[1m[0m                                                                                                           ]2;thyagomoura@ThyagoMouras-MacBook-Air:~/Desktop/faculdade/Transfer-Market]1;..ansfer-Market]7;file://ThyagoMouras-MacBook-Air.local/Users/thyagomoura/Desktop/faculdade/Transfer-Market\[0m[27m[24m[J[35mthyagomoura@[35mThyagoMouras-MacBook-Air[00m [34m~/Desktop/faculdade/Transfer-Market[00m$ [K[17C[31m1 ↵[00m [34m ✹[36m ✭[00m[32mmaster[00m[00m [32D[?1h=[?2004hnode script.js[?1l>[?2004l
+]2;node script.js]1;node[ { firstName: [32m'Lou'[39m, age: [90mundefined[39m } ]
+[1m[7m%[27m[1m[0m                                                                                                           ]2;thyagomoura@ThyagoMouras-MacBook-Air:~/Desktop/faculdade/Transfer-Market]1;..ansfer-Market]7;file://ThyagoMouras-MacBook-Air.local/Users/thyagomoura/Desktop/faculdade/Transfer-Market\[0m[27m[24m[J[35mthyagomoura@[35mThyagoMouras-MacBook-Air[00m [34m~/Desktop/faculdade/Transfer-Market[00m$ [K[20C [34m ✹[36m ✭[00m[32mmastnode script.js[?1l>[?2004l
+node script.js[?1l>[?2004l
+]2;node script.js]1;node[
+  {
+    firstName: [32m'Ignatius'[39m,
+    age: _Date {
+      past: [36m[Function (anonymous)][39m,
+      future: [36m[Function (anonymous)][39m,
+      between: [36m[Function (anonymous)][39m,
+      betweens: [36m[Function (anonymous)][39m,
+      recent: [36m[Function (anonymous)][39m,
+      soon: [36m[Function (anonymous)][39m,
+      month: [36m[Function (anonymous)][39m,
+      weekday: [36m[Function (anonymous)][39m
+    }
+  }
+]
+[1m[7m%[27m[1m[0m                                                                                                           ]2;thyagomoura@ThyagoMouras-MacBook-Air:~/Desktop/faculdade/Transfer-Market]1;..ansfer-Market]7;file://ThyagoMouras-MacBook-Air.local/Users/thyagomoura/Desktop/faculdade/Transfer-Market\[0m[27m[24m[J[35mthyagomoura@[35mThyagoMouras-MacBook-Air[00m [34m~/Desktop/faculdade/Transfer-Market[00m$ [K[20C [34m ✹[36m ✭[00m[32mmaster[00m[00m [32D[?1h=[?2004hnode script.js[?1l>[?2004l
+]2;node script.js]1;node[ { firstName: [32m'Desmond'[39m, age: [90mundefined[39m } ]
+[1m[7m%[27m[1m[0m                                                                                                           ]2;thyagomoura@ThyagoMouras-MacBook-Air:~/Desktop/faculdade/Transfer-Market]1;..ansfer-Market]7;file://ThyagoMouras-MacBook-Air.local/Users/thyagomoura/Desktop/faculdade/Transfer-Market\[0m[27m[24m[J[35mthyagomoura@[35mThyagoMouras-MacBook-Air[00m [34m~/Desktop/faculdade/Transfer-Market[00m$ [K[20C [34m ✹[36m ✭[00m[32mmaster[00m[00m [32D[?1h=[?2004hnode script.js[?1l>[?2004l
+]2;node script.js]1;node[
+  {
+    firstName: [32m'Junius'[39m,
+    age: Random {
+      number: [36m[Function (anonymous)][39m,
+      float: [36m[Function (anonymous)][39m,
+      arrayElement: [36m[Function (anonymous)][39m,
+      arrayElements: [36m[Function (anonymous)][39m,
+      objectElement: [36m[Function (anonymous)][39m,
+      uuid: [36m[Function (anonymous)][39m,
+      boolean: [36m[Function (anonymous)][39m,
+      word: [36m[Function: randomWord][39m,
+      words: [36m[Function: randomWords][39m,
+      image: [36m[Function: randomImage][39m,
+      locale: [36m[Function: randomLocale][39m,
+      alpha: [36m[Function: alpha][39m,
+      alphaNumeric: [36m[Function: alphaNumeric][39m,
+      hexaDecimal: [36m[Function: hexaDecimal][39m
+    }
+  }
+]
+[1m[7m%[27m[1m[0m                                                                                                           ]2;thyagomoura@ThyagoMouras-MacBook-Air:~/Desktop/faculdade/Transfer-Market]1;..ansfer-Market]7;file://ThyagoMouras-MacBook-Air.local/Users/thyagomoura/Desktop/faculdade/Transfer-Market\[0m[27m[24m[J[35mthyagomoura@[35mThyagoMouras-MacBook-Air[00m [34m~/Desktop/faculdade/Transfer-Market[00m$ [K[20C [34m ✹[36m ✭[00m[32mmaster[00m[00m [32D[?1h=[?2004hnode script.js[?1l>[?2004l
+]2;node script.js]1;nodeDeprecation Warning: faker.random.number is now located in faker.datatype.number
+/Users/thyagomoura/Desktop/faculdade/Transfer-Market/node_modules/faker/lib/datatype.js:44
+      max += options.precision;
+                     ^
+
+TypeError: Cannot mix BigInt and other types, use explicit conversions
+    at Datatype.number [90m(/Users/thyagomoura/Desktop/faculdade/Transfer-Market/[39mnode_modules/[4mfaker[24m/lib/datatype.js:44:22[90m)[39m
+    at Random.number [90m(/Users/thyagomoura/Desktop/faculdade/Transfer-Market/[39mnode_modules/[4mfaker[24m/lib/random.js:38:27[90m)[39m
+    at [90mfile:///Users/thyagomoura/Desktop/faculdade/Transfer-Market/[39mscript.js:8:21
+[90m    at ModuleJob.run (node:internal/modules/esm/module_job:192:25)[39m
+[90m    at async DefaultModuleLoader.import (node:internal/modules/esm/loader:246:24)[39m
+[90m    at async loadESM (node:internal/process/esm_loader:40:7)[39m
+[90m    at async handleMainPromise (node:internal/modules/run_main:66:12)[39m
+
+Node.js v20.3.1
+[1m[7m%[27m[1m[0m                                                                                                           ]2;thyagomoura@ThyagoMouras-MacBook-Air:~/Desktop/faculdade/Transfer-Market]1;..ansfer-Market]7;file://ThyagoMouras-MacBook-Air.local/Users/thyagomoura/Desktop/faculdade/Transfer-Market\[0m[27m[24m[J[35mthyagomoura@[35mThyagoMouras-MacBook-Air[00m [34m~/Desktop/faculdade/Transfer-Market[00m$ [K[17C[31m1 ↵[00m [34m ✹[36m ✭[00m[32mmaster[00m[00m [32D[?1h=[?2004hnode script.js[?1l>[?2004l
+]2;node script.js]1;nodeDeprecation Warning: faker.random.number is now located in faker.datatype.number
+[ { firstName: [32m'Kennith'[39m, age: [33m31[39m } ]
+[1m[7m%[27m[1m[0m                                                                                                           ]2;thyagomoura@ThyagoMouras-MacBook-Air:~/Desktop/faculdade/Transfer-Market]1;..ansfer-Market]7;file://ThyagoMouras-MacBook-Air.local/Users/thyagomoura/Desktop/faculdade/Transfer-Market\[0m[27m[24m[J[35mthyagomoura@[35mThyagoMouras-MacBook-Air[00m [34m~/Denode script.js[?1l>[?2004l
+]2;node script.js]1;nodeDeprecation Warning: faker.random.number is now locanode script.js[?1l>[?2004l
+]2;node script.js]1;nodeDeprecation Warning: faker.random.number is now located in faker.datatype.number
+file:///Users/thyagomoura/Desktop/faculdade/Transfer-Market/script.js:10
+        actualTeam: faker.company.name(),
+                                  ^
+
+TypeError: faker.company.name is not a function
+    at [90mfile:///Users/thyagomoura/Desktop/faculdade/Transfer-Market/[39mscript.js:10:35
+[90m    at ModuleJob.run (node:internal/modules/esm/module_job:192:25)[39m
+[90m    at async DefaultModuleLoader.import (node:internal/modules/esm/loader:246:2node script.js[?1l>[?2004l
+]2;node script.js]1;nodeDeprecation Warning: faker.random.number is now located in faker.datatype.number
+file:///Users/thyagomoura/Desktop/faculdade/Transfer-Market/script.js:10
+        actualTeam: faker.company.name(),
+                                  ^
+
+TypeError: faker.company.name is not a function
+    at [90mfile:///Users/thyagomoura/Desktop/faculdade/Transfer-Market/[39mscript.js:10:35
+[90m    at ModuleJob.run (node:internal/modules/esm/module_job:192:25)[39m
+[90m    at async DefaultModuleLoader.import (node:internal/modules/esm/loader:246:24)[39m
+[90m    at async loadESM (node:internal/process/esm_loader:40:7)[39m
+[90m    at async handleManode script.js[?1l>[?2004l
+]2;node script.js]1;nodeDeprecation Warning: faker.random.number is now located in faker.datatype.number
+[
+  {
+    firstName: [32m'Erich'[39m,
+    age: [33m37[39m,
+    position: [32m'back-end'[39m,
+    actualTeam: [90mundefined[39m
+  }
+]
+[1m[7m%[27m[1m[0m                                                                                                           ]2;thyagomoura@ThyagoMouras-MacBook-Air:~/Desktop/faculdade/Transfer-Market]1;..ansfer-Market]7;file://ThyagoMouras-MacBook-Air.local/Users/thyagomoura/Desktop/faculdade/Transfer-Market\[0m[27m[24m[J[35mthyagomoura@[35mThyagoMouras-MacBook-Air[00m [34m~/Desktop/faculdade/Transfer-Market[00m$ [K[20C [34m ✹[36m ✭[00m[32mmaster[00m[00m [32D[?1h=[?2004hnode script.js[?1l>[?2004l
+]2;node script.js]1;nodeDeprecation Warning: faker.random.number is now located in faker.datatype.number
+[
+  {
+    firstName: [32m'Jayson'[39m,
+    age: [33m30[39m,
+    position: [32m'Concrete'[39m,
+    actualTeam: Company {
+      suffixes: [36m[Function (anonymous)][39m,
+      companyName: [36m[Function (anonymous)][39m,
+      companySuffix: [36m[Function (anonymous)][39m,
+      catchPhrase: [36m[Function (anonymous)][39m,
+      bs: [36m[Function (anonymous)][39m,
+      catchPhraseAdjective: [36m[Function (anonymous)][39m,
+     node script.js[?1l>[?2004l
+]2;node script.js]1;nodeDeprecation Warning: faker.random.number is now located in faker.datatype.number
+[
+  {
+    firstName: [32m'Jayson'[39m,
+    age: [33m30[39m,
+    position: [32m'Concrete'[39m,
+    actualTeam: Company {
+      suffixes: [36m[Function (anonymous)][39m,
+      companyName: [36m[Function (anonymous)][39m,
+      companySuffix: [36m[Function (anonymous)][39m,
+      catchPhrase: [36m[Function (anonymous)][39m,
+      bs: [36m[Function (anonymous)][39m,
+      catchPhraseAdjective: [36m[Function (anonymous)][39m,
+      catchPhraseDescriptor: [36m[Function (anonymous)][39m,
+      catchPhraseNoun: [36m[Function (anonymous)][39m,
+      bsAdjective: [36m[Function (anonymous)][39m,
+      bsBuzz: [36m[Function (anonymous)][39m,
+      bsNoun: [36m[Function (anonymous)][39m
+    }
+  }
+]
+[1m[7m%[27m[1m[0m                                                                                                           ]2;thyagomoura@ThyagoMouras-MacBook-Air:~/Desktop/faculdade/Transfer-Market]1;..ansfer-Market]7;file://ThyagoMouras-MacBook-Air.local/Users/thyagomoura/Desktop/faculdade/Transfer-Market\[0m[27m[24m[J[35mthyagomoura@[35mThyagoMouras-MacBook-Air[00m [34m~/Desktop/faculdade/Transfer-Market[00m$ [K[20C [34m ✹[36m ✭[00m[32mmaster[00m[00m [32D[?1h=[?2004hnode script.js[?1l>[?2004l
+]2;node script.js]1;nodeDeprecation Warning: faker.random.number is now located in faker.datatype.number
+[
+  {
+    firstName: [32m'Scarlett'[39m,
+    age: [33m18[39m,node script.js[?1l>[?2004l
+]2;node script.js]1;nodeDeprecation Warning: faker.random.number is now located in faker.datatype.number
+[
+  {
+    firstName: [32m'Rowena'[39m,
+    lastName: [32m'Schneider'[39m,
+    age: [33m35[39m,
+    position: [32m'visualize'[39m,
+    currentTeam: [32m"Jacobson - O'Connell"[39m
+  }
+]
+file:///Users/thyagomoura/Desktop/faculdade/Transfer-Market/script.js:18
+var playerCards = document.querySelectorAll('.cardPlayer');
+                  ^
+
+ReferenceError: document is not defined
+    at [90mfile:///Users/thyagomoura/Desktop/faculdade/Transfer-Market/[39mscript.js:18:19
+[90m    at ModuleJob.run (node:internal/modules/esm/module_job:192:25)[39m
+[90m    at async DefaultModuleLoader.import (node:internal/modules/esm/loader:246:24)[39m
+[90m    at async loadESM (node:internal/process/esm_loader:40:7)[39m
+[90m    at async handleMainPromise (node:internal/modules/run_main:66:12)[39m
+
+Node.js v20.3.1
+[1m[7m%[27m[1m[0m                                                                                                           ]2;thyagomoura@ThyagoMouras-MacBook-Air:~/Desktop/faculdade/Transfer-Market]1;..ansfer-Market]7;file://ThyagoMouras-MacBook-Air.local/Users/thyagomoura/Desktop/faculdade/Transfer-Market\[0m[27m[24m[J[35mthyagomoura@[35mThyagoMouras-MacBook-Air[00m [34m~/Desktop/faculdade/Transfer-Market[00m$ [K[17C[31m1 ↵[00m [34m ✹[36m ✭[00m[32mmaster[00m[00m [32D[?1h=[?2004hcclear[?1l>[?2004l
+]2;clear]1;clear[H[2J[1m[7m%[27m[1m[0m                                                                                                           ]2;thyagomoura@ThyagoMouras-MacBook-Air:~/Desktop/faculdade/Transfer-Market]1;..ansfer-Market]7;file://ThyagoMouras-MacBook-Air.local/Users/thyagomoura/Desktop/faculdade/Transfer-Market\[0m[27m[24m[J[35mthyagomoura@[35mThyagoMouras-MacBook-Air[00m [34m~/Desktop/faculdade/Transfer-Market[00m$ [K[20C [34m ✹[36m ✭[00m[32mmaster[00m[00m [32D[?1h=[?2004hclearnode script.js[?1l>[?2004l
+]2;node script.js]1;nodeDeprecation Warning: faker.random.number is now located in faker.datatype.number
+Deprecation Warning: faker.random.number is now located in faker.datatype.number
+Deprecation Warning: faker.random.number is now located in faker.datatype.number
+Deprecation Warning: faker.random.number is now located in faker.datatype.number
+Deprecation Warning: faker.random.number is now located in faker.datatype.number
+Deprecation Warning: faker.random.number is now located in faker.datatype.number
+[
+  {
+    firstName: [32m'Winona'[39m,
+    lastName: [32m'E[?1l>[?2004l
+]2;node script.js]1;nodeDeprecation Warning: faker.random.number is now located in faker.datatype.number
+Deprecation Warning: faker.random.number is now located in faker.datatype.number
+Deprecation Warning: faker.random.number is now located in faker.datatype.number
+Deprecation Warning: faker.random.number is now located in faker.datatype.number
+Deprecation Warning: faker.random.number is now located in faker.datatype.number
+Deprecation Warning: faker.random.number is now located in faker.datatype.number
+[
+  {
+    firstName: [32m'Winona'[39m,
+    lastName: [32m'Emmerich'[39m,
+    age: [33m40[39m,
+    position: [32m'pink'[39m,
+    currentTeam: [32m'Hane Group'[39m,
+    status: [32m'Disponivel'[39m
+  },
+  {
+    firstName: [32m'Janet'[39m,
+    lastName: [32m'Muller'[39m,
+    age: [33m36[39m,
+    position: [32m'system'[39m,
+    currentTeam: [32m"O'Reilly LLC"[39m,
+    status: [32m'Disponivel'[39m
+  },
+  {
+    firstName: [32m'Dana'[39m,
+    lastName: [32m'Heathcote'[39m,
+    age: [33m19[39m,
+    position: [32m'bottom-line'[39m,
+    currentTeam: [32m'Zieme, Bogan and Frami'[39m,
+    status: [32m'Disponivel'[39m
+  },
+  {
+    firstName: [32m'Polly'[39m,
+    lastName: [32m'Koss'[39m,
+    age: [33m30[39m,
+    position: [32m'Chief'[39m,
+    currentTeam: [32m'Lockman, Champlin and Mayert'[39m,
+    status: [32m'Disponivel'[39m
+  },
+  {
+    firstName: [32m'Dominique'[39m,
+    lastName: [32m'Mann'[39m,
+    age: [33m19[39m,
+    position: [32m'Investor'[39m,
+    currentTeam: [32m'Thompson Group'[39m,
+    status: [32m'Disponivel'[39m
+  },
+  {
+    firstName: [32m'Daniella'[39m,
+    lastName: [32m'Turner'[39m,
+    age: [33m34[39m,
+    position: [32m'strategize'[39m,
+    currentTeam: [32m'Raynor - Okuneva'[39m,
+    status: [32m'Disponivel'[39m
+  }
+]
+file:///Users/thyagomoura/Desktop/faculdade/Transfer-Market/script.js:19
+var playerCards = document.querySelectorAll('.cardPlayer');
+                  ^
+
+ReferenceError: document is not defined
+    at [90mfile:///Users/thyagomoura/Desktop/faculdade/Transfer-Market/[39mscript.js:19:19
+[90m    at ModuleJob.run (node:internal/modules/esm/module_job:192:25)[39m
+[90m    at async DefaultModuleLoader.import (node:internal/modules/esm/loader:246:24)[39m
+[90m    at async loadESM (node:internal/process/esm_loader:40:7)[39m
+[90m    at async handleManode script.js[?1l>[?2004l
+]2;node script.js]1;node[
+  {
+    firstName: [32m'Pierre'[39m,
+    lastName: [32m'Hintz'[39m,
+    age: [33m39[39m,
+    position: [32m'robust'[39m,
+    currentTeam: [32m'Will, Raynor and Ullrich'[39m,
+    status: [32m'Disponivel'[39m
+  },
+  {
+    firstName: [32m'Fermin'[39m,
+    lastName: [32m'Rolfson'[39m,
+    age: [33m29[39m,
+    position: [32m'Avon'[39m,
+    currentTeam: [32m'Schroeder Group'[39m,
+    status: [32m'Disponivel'[39m
+  },
+  {
+    firstName: [32m'Elliot'[39m,
+    lastName: [32m'Toy'[39m,
+    age: [3node script.js[?1l>[?2004l
+]2;node script.js]1;node[
+  {
+    firstName: [32m'Pierre'[39m,
+    lastName: [32m'Hintz'[39m,
+    age: [33m39[39m,
+    position: [32m'robust'[39m,
+    currentTeam: [32m'Will, Raynor and Ullrich'[39m,
+    status: [32m'Disponivel'[39m
+  },
+  {
+    firstName: [32m'Fermin'[39m,
+    lastName: [32m'Rolfson'[39m,
+    age: [33m29[39m,
+    position: [32m'Avon'[39m,
+    currentTeam: [32m'Schroeder Group'[39m,
+    status: [32m'Disponivel'[39m
+  },
+  {
+    firstName: [32m'Elliot'[39m,
+    lastName: [32m'Toy'[39m,
+    age: [33m30[39m,
+    position: [32m'best-of-breed'[39m,
+    currentTeam: [32m'Paucek - Schowalter'[39m,
+    status: [32m'Disponivel'[39m
+  },
+  {
+    firstName: [32m'Lennie'[39m,
+    lastName: [32m'Torphy'[39m,
+    age: [33m40[39m,
+    position: [32m'International'[39m,
+    currentTeam: [32m'Conn - Yundt'[39m,
+    status: [32m'Disponivel'[39m
+  },
+  {
+    firstName: [32m'Jeffrey'[39m,
+    lastName: [32m'Walter'[39m,
+    age: [33m26[39m,
+    position: [32m'blue'[39m,
+    currentTeam: [32m'Steuber LLC'[39m,
+    status: [32m'Disponivel'[39m
+  },
+  {
+    firstName: [32m'Horace'[39m,
+    lastName: [32m'Kuphal'[39m,
+    age: [33m28[39m,
+    position: [32m'Operations'[39m,
+    currentTeam: [32m'Wisozk - Davis'[39m,
+    status: [32m'Disponivel'[39m
+  }
+]
+file:///Users/thyagomoura/Desktop/faculdade/Transfer-Market/script.js:19
+var playerCards = document.querySelectorAll('.cardPlayer');
+                  ^
+
+ReferenceError: document is not defined
+    at [90mfile:///Users/thyagomoura/Desktop/faculdade/Transfer-Market/[39mscript.js:19:19
+[90m    at ModuleJob.run (node:internal/modules/esm/module_job:192:25)[39m
+[90m    at async DefaultModuleLoader.import (node:internal/modules/esm/loader:246:24)[39m
+[90m    at async loadESM (node:internal/process/esm_loader:40:7)[39m
+[90m    at async handleMaccel c clear[?1l>[?2004l
+]2;clear]1;clear[H[2J[1m[7m%[27m[1m[0m                                                                                                           ]2;thyagomoura@ThyagoMouras-MacBook-Air:~/Desktop/faculdade/Transfer-Market]1;..ansfer-Market]7;file://ThyagoMouras-MacBook-Air.local/Users/thyagomoura/Desktop/faculdade/Transfer-Market\[0m[27m[24m[J[35mthyagomoura@[35mThyagoMouras-MacBook-Air[00m [34m~/Desktop/faculdade/Transfer-Market[00m$ [K[20C [34m ✹[36m ✭[00m[32mmaster[00m[00m [32D[?1h=[?2004h[00m [32D[?1h=[?2004hccel c clear[?1l>[?2004l
+]2;clear]1;clear[H[2J[1m[7m%[27m[1m[0m                                                                                                           ]2;thyagomoura@ThyagoMouras-MacBook-Air:~/Desktop/faculdade/Transfer-Market]1;..ansfer-Market]7;file://ThyagoMouras-MacBook-Air.local/Users/thyagomoura/Desktop/faculdade/Transfer-Market\[0m[27m[24m[J[35mthyagomoura@[35mThyagoMouras-MacBook-Air[00m [34m~/Desktop/faculdade/Transfer-Market[00m$ [K[20C [34m ✹[36m ✭[00m[32mmaster[00m[00m [32D[?1h=[?2004h

@@ -17,36 +17,36 @@
             <div class="content">
                 <div class="head">
                     <img src="../Media/soccerPlayer.jpg" alt="" />
-
-                    <h1>Nome do Jogador</h1>
+                    <h1 id="fullName">Nome do Jogador</h1>
                 </div>
 
                 <div class="info">
-                    <p>Nome completo</p>
-                    <p>Data de Nascimento</p>
-                    <p>Nacionalidade</p>
-                    <p>Cidade</p>
-                    <p>Estado</p>
-                    <p>
+                    <p id="Name">Nome completo:</p>
+                    <p id="age">Idade:</p>
+                    <p id="nationality">Nacionalidade:</p>
+                    <p id="city">Cidade:</p>
+                    <p id="state">Estado:</p>
+                    <p id="position">
                         Posição (ex: Atacante, Meio-Campo, Defensor, Goleiro,
-                        etc)
+                        etc):
                     </p>
-                    <p>Clube Atual</p>
-                    <p>Clubes Anteriores</p>
-                    <p>Número da Camisa (se aplicável)</p>
-                    <p>Pé Dominante (Direito, Esquerdo, Ambos)</p>
+                    <p id="currentTeam">Clube Atual:</p>
+                    <p id="previousTeams">Clubes Anteriores:</p>
+                    <p id="shirtNumber">Número da Camisa (se aplicável):</p>
+                    <p id="dominantFoot">Pé Dominante (Direito, Esquerdo, Ambos):</p>
+                    </br>
                     <h3>Características Físicas:</h3>
-                    <p>Altura (em centímetros ou metros)</p>
-                    <p>Peso (em quilogramas)</p>
-                    <p>
-                        Condição Física (especificar condições médicas
-                        importantes)
-                    </p>
-                    <p>Histórico de Lesões (opcional)</p>
-                    <p>Histórico de Lesões (opcional)</p>
-                    <p>Histórico de Lesões (opcional)</p>
+                    <p id="height">Altura (em centímetros ou metros):</p>
+                    <p id="weight">Peso (em quilogramas):</p>
+                    <div class="button-container">
+                        <button onclick="location.href='index.html'" type="button">
+                            Voltar
+                        </button>
+                    </div>
                 </div>
             </div>
         </main>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Faker/3.0.1/faker.js"></script>
+        <script src="../scripts/playerInfo.js"></script>
     </body>
 </html>
