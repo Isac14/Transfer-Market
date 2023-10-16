@@ -1,5 +1,9 @@
-from server.app import create_db_connection
+from sqlalchemy import create_engine
+from sqlalchemy.orm import sessionmaker
 from server.entities.time_entity import Time
+
+engine = create_engine('postgresql://localhost:5432/transfermarket')
+Session = sessionmaker(bind=engine)
 
 def criar_time_controller(data):
     novo_time = Time(
@@ -12,8 +16,7 @@ def criar_time_controller(data):
         centro_treinamento_nome=data['centro_treinamento_nome'],
         centro_treinamento_detalhes=data['centro_treinamento_detalhes']
     )
-    db = create_db_connection()
-    db.session.add(novo_time)
-    db.session.commit()
+    Session.add(novo_time)
+    Session.commit()
 
     return novo_time.id

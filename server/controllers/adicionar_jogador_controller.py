@@ -1,6 +1,9 @@
-
-from server.app import create_db_connection
 from server.entities.jogador_entity import Jogador
+from sqlalchemy import create_engine
+from sqlalchemy.orm import sessionmaker
+
+engine = create_engine('postgresql://localhost:5432/transfermarket')
+Session = sessionmaker(bind=engine)
 
 def criar_jogador_controller(data):
     try:
@@ -17,9 +20,8 @@ def criar_jogador_controller(data):
             altura_cm=data['altura_cm'],
             peso_kg=data['peso_kg']
         )
-        db = create_db_connection()
-        db.session.add(novo_jogador)
-        db.session.commit()
+        Session.add(novo_jogador)
+        Session.commit()
 
         return novo_jogador.id
     except Exception as e:

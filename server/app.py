@@ -5,12 +5,9 @@ from server.routes.routes import create_routes
 app = Flask(__name__)
 db = SQLAlchemy()
 
-def create_db_connection(app):
+def create_app():
     app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://localhost:5432/transfermarket'
     db.init_app(app)
-
-def create_app():
-    create_db_connection(app)
     create_routes(app)
     return app
 

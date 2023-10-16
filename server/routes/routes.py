@@ -1,8 +1,7 @@
 from flask import request, jsonify
-from server.app import create_db_connection
+from server.controllers import transfer_controller
 from server.controllers.adicionar_jogador_controller import criar_jogador_controller
 from server.controllers.adicionar_time_controller import criar_time_controller
-from server.entities.jogador_entity import Jogador
 
 def create_routes(app):
     @app.route('/adicionar_jogador', methods=['POST'])
@@ -20,14 +19,5 @@ def create_routes(app):
     @app.route('/associar_jogador_time', methods=['POST'])
     def associar_jogador_time():
         data = request.json
-        jogador_id = data['jogador_id']
-        time_id = data['time_id']
-
-        jogador = Jogador.query.get(jogador_id)
-        if not jogador:
-            return jsonify({"error": "Jogador não encontrado"}), 404
-        
-        jogador.clube_atual_id = time_id
-        db = create_db_connection()
-        db.session.commit()
-        return jsonify({"message": f"Jogador {jogador.nome_completo} associado ao time com ID {time_id}!"}), 200
+        result = transfer_controller(data)
+        return jsonify({"message": f"Jogador {result[0].nome_completo} associado ao time com ID {result[1]}!"}), 200
