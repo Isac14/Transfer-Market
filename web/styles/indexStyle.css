@@ -69,6 +69,8 @@ main {
     border-radius: 15px;
     height: 80vh;
     width: 48%;
+    overflow-y: auto;
+    overflow-x: auto;
 }
 
 input {
@@ -80,6 +82,7 @@ input {
 .searchPlayer {
     position: relative;
     align-self: flex-start;
+    margin-top: 10%;
     margin-left: 5%;
     margin-bottom: 5px;
 }
@@ -98,6 +101,7 @@ input {
     border-radius: 15px;
     height: 80vh;
     width: 48%;
+    overflow-y: auto;
 }
 
 .searchTeam {
@@ -112,13 +116,14 @@ input {
     border-radius: 15px;
     height: auto; 
     max-height: 90vh; 
-    width: 95%;
+    width: 30rem;
     display: flex;
     flex-direction: row; 
     overflow: auto; 
+    padding: 10px 10px;
 }
 .cardPlayer img{
-    width: 10%;
+    width: 40%;
 }
 .cardTeam {
     border: 1px solid red;
@@ -129,6 +134,7 @@ input {
     display: flex;
     flex-direction: row; 
     overflow: auto; 
+    padding: 10px 10px;
 }
 
 .cardTeam img{

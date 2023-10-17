@@ -5,51 +5,67 @@ class Index {
         this.stadiums = [];
     }
 
-    generateData() {
-        for (let i = 0; i < 6; i++) {
-            const person = {
-                firstName: faker.name.firstName(),
-                lastName: faker.name.lastName(),
-                age: faker.random.number({min: 18, max: 40}),
-                position: this.positions[Math.floor(Math.random() * this.positions.length)],
-                currentTeam: faker.company.companyName(),
-                status: "Disponivel"
-            }
-            const stadium = {
-                teamName: faker.company.companyName(),
-                playersAvailable: faker.random.number({min: 0, max: 12})
-            }
-            this.players.push(person);
-            this.stadiums.push(stadium);
+    async fetchDataFromBackend() {
+        try {
+            let response = await fetch('http://127.0.0.1:5000/get/data/index'); 
+            let data = await response.json();
+            
+            this.players = data.players;
+            this.stadiums = data.stadiums;
+
+        } catch (error) {
+            console.error("Erro ao buscar dados do backend:", error);
         }
     }
 
+    createPlayerCard(player) {
+        const card = document.createElement('div');
+        card.className = 'cardPlayer';
+        
+        // Estrutura do HTML do card usando os dados do jogador
+        card.innerHTML = `
+            <div class="content">
+                <p id="playerName">Nome: ${player.firstName} ${player.lastName}</p>
+                <p>Idade: ${player.age}</p>
+                <p>Posição: ${player.position}</p>
+                <p>Time atual: ${player.currentTeam}</p>
+            </div>
+            <div id="status">
+                <span class="status">Status: ${player.status}</span>
+            </div>
+        `;
+        return card;
+    }
+
+    createStadiumCard(stadium) {
+        const card = document.createElement('div');
+        card.className = 'cardTeam';
+        
+        // Estrutura do HTML do card usando os dados do time
+        card.innerHTML = `
+            <div class="content">
+                <p id="teamName">Nome: ${stadium.teamName}</p>
+            </div>
+            <div id="statusTeam">
+                <span class="statusTeam">Jogadores Disponíveis: ${stadium.playersAvailable}</span>
+            </div>
+        `;
+        return card;
+    }
+
     displayPlayerCards() {
-        var playerCards = document.querySelectorAll('.cardPlayer');
-
-        playerCards.forEach((card, index) => {
-            if (this.players[index]) {
-                var pElements = card.querySelectorAll('.content p');
-                pElements[0].textContent = 'Nome: ' + this.players[index].firstName + ' ' + this.players[index].lastName;
-                pElements[1].textContent = 'Idade: ' + this.players[index].age; 
-                pElements[2].textContent = 'Posição: ' + this.players[index].position; 
-                pElements[3].textContent = 'Time atual: ' + this.players[index].currentTeam; 
-
-                card.querySelector('#status .status').textContent = 'Status: ' + this.players[index].status;
-            }
+        const container = document.getElementById('playersContainer');
+        this.players.forEach(player => {
+            const card = this.createPlayerCard(player);
+            container.appendChild(card);
         });
     }
 
     displayStadiumCards() {
-        var stadiumCards = document.querySelectorAll('.cardTeam');
-
-        stadiumCards.forEach((card, index) => {
-            if (this.stadiums[index]) {
-                var pElements = card.querySelectorAll('.content p');
-                pElements[0].textContent = 'Nome: ' + this.stadiums[index].teamName;
-
-                card.querySelector('#statusTeam .statusTeam').textContent = 'Jogadores Disponíveis: ' + this.stadiums[index].playersAvailable;
-            }
+        const container = document.getElementById('stadiumsContainer');
+        this.stadiums.forEach(stadium => {
+            const card = this.createStadiumCard(stadium);
+            container.appendChild(card);
         });
     }
 
@@ -58,7 +74,6 @@ class Index {
 
         input.addEventListener('input', function() {
             let filter = input.value.toUpperCase();
-
             let names = document.querySelectorAll('#playerName');
 
             for (let i = 0; i < names.length; i++) {
@@ -77,7 +92,6 @@ class Index {
 
         inputTeam.addEventListener('input', function() {
             let filterTeam = inputTeam.value.toUpperCase();
-
             let teamNames = document.querySelectorAll('#teamName');
 
             for (let i = 0; i < teamNames.length; i++) {
@@ -93,9 +107,9 @@ class Index {
     }
 }
 
-document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', async function() {
     const index = new Index();
-    index.generateData();
+    await index.fetchDataFromBackend();
     index.displayPlayerCards();
     index.displayStadiumCards();
     index.searchPlayer();
