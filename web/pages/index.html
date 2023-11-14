@@ -12,6 +12,8 @@
         <header>
             <h1>TransferZone</h1>
             <div class="header-buttons">
+                <a href="#playersSection"><button type="button">Ver Jogadores</button></a>
+                <a href="#teamsSection"><button type="button">Ver Times</button></a>
                 <a href="registerPlayer.html"><button type="button">Cadastrar Jogador</button></a>
                 <a href="registerTeam.html"><button type="button">Cadastrar Time</button></a>
                 <a href="exchange.html"><button type="button">Fazer uma Transferência</button></a>
@@ -19,29 +21,42 @@
         </header>
 
         <main>
-            <div class="player">
+            <!-- Popup para visualização do jogador -->
+            <div id="playerPopup" class="popup">
+                <div class="popup-content">
+                    <span class="close">&times;</span>
+                    <!-- O conteúdo do popup será inserido aqui -->
+                </div>
+            </div>
+
+            <div id="teamPopup" class="popup">
+                <div class="popup-content">
+                    <span class="close">&times;</span>
+                    <!-- O conteúdo do popup será inserido aqui -->
+                </div>
+            </div>
+            
+            <section id="playersSection" class="player-section">
+                <h2 class="section-header">Jogadores</h2>
                 <div class="searchPlayer">
                     <form>
                         <input type="text" placeholder="Digite o jogador" />
-                        <span class="search-icon">&#x1F50D;</span>
                     </form>
                 </div>
-
                 <!-- Contêiner para os cards dos jogadores -->
                 <div id="playersContainer"></div>
-            </div>
+            </section>
 
-            <div class="team">
+            <section id="teamsSection" class="team-section">
+                <h2 class="section-header">Times</h2>
                 <div class="searchTeam">
                     <form>
                         <input type="text" placeholder="Digite o time" />
-                        <span class="search-icon">&#x1F50D;</span>
                     </form>
                 </div>
-
                 <!-- Contêiner para os cards dos times -->
                 <div id="stadiumsContainer"></div>
-            </div>
+            </section>
         </main>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/Faker/3.0.1/faker.js"></script>
         <script src="../scripts/index.js"></script>

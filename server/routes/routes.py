@@ -1,4 +1,8 @@
 from flask import request, jsonify
+from server.controllers.atualizar_time_controller import atualizar_time_controller
+from server.controllers.atualizar_player_controller import atualizar_player_controller
+from server.controllers.deletar_stadio_controller import deletar_stadio_controller
+from server.controllers.delete_player_controller import deletar_jogador_controller
 from server.controllers.transfer_controller import transfer_controller
 from server.controllers.adicionar_jogador_controller import criar_jogador_controller
 from server.controllers.adicionar_time_controller import criar_time_controller
@@ -38,3 +42,23 @@ def create_routes(app):
         jogadores_list = get_index_jogadores()
         times_list = get_index_clubes()
         return jsonify({"players": jogadores_list, "stadiums": times_list})
+    
+    @app.route('/delete/player/<string:player_name>', methods=['DELETE'])
+    def delete_player(player_name):
+        result = deletar_jogador_controller(player_name)
+        return jsonify(result[0]), result[1]
+    
+    @app.route('/delete/stadio/<string:stadio_name>', methods=['DELETE'])
+    def delete_stadio(stadio_name):
+        result = deletar_stadio_controller(stadio_name)
+        return jsonify(result[0]), result[1]
+    
+    @app.route('/atualizar/jogador/<player_id>', methods=['PUT', 'POST'])
+    def update_jogador(player_id):
+        result = atualizar_player_controller(player_id, request.get_json())
+        return jsonify(result), 200
+    
+    @app.route('/atualizar/time/<team_id>', methods=['PUT', 'POST'])
+    def update_time(team_id):
+        result = atualizar_time_controller(team_id, request.get_json())
+        return jsonify(result), 200

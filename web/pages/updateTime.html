@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Atualizar Time</title>
+    <link rel="stylesheet" href="../styles/updateTeam.css">
+</head>
+<body>
+    <h1>Atualizar Time</h1>
+    <form id="updateTeamForm">
+        <label for="nameTeam">Nome do Time:</label>
+        <input type="text" id="nameTeam" name="nameTeam" required>
+
+        <label for="city">Cidade:</label>
+        <input type="text" id="city" name="city" required>
+
+        <label for="country">País:</label>
+        <input type="text" id="country" name="country" required>
+
+        <label for="estructure">Estrutura Desportiva:</label>
+        <input type="text" id="estructure" name="estructure" required>
+
+        <label for="stadiumName">Nome do Estádio:</label>
+        <input type="text" id="stadiumName" name="stadiumName" required>
+
+        <label for="stadiumCapacity">Capacidade do Estádio (número máximo de torcedores):</label>
+        <input type="number" id="stadiumCapacity" name="stadiumCapacity" required>
+
+        <label for="trainingCenter">Centro de Treinamento (nome e detalhes):</label>
+        <input type="text" id="trainingCenter" name="trainingCenter" required>
+
+        <input type="submit" value="Atualizar time">
+    </form>
+    <div class="button-container">
+        <button onclick="location.href='index.html'" type="button">
+            Voltar
+        </button>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Faker/3.0.1/faker.js"></script>
+    <script src="../scripts/updateTime.js"></script>
+</body>
+</html>

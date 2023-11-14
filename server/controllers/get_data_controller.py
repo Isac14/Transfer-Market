@@ -38,14 +38,14 @@ def get_index_jogadores():
                 "lastName": " ".join(jogador.nome_completo.split(" ")[1:]),
                 "age": jogador.idade,
                 "position": jogador.posicao,
-                "currentTeam": jogador.clube_atual.nome_time,
+                "currentTeam": jogador.clube_atual.nome_time if jogador.clube_atual else "Sem time",
                 "status": "Disponivel"
             }
             for jogador in jogadores
         ]
         return jogadores_data
     except Exception as e:
-        print(f"Error while fetching clubs: {e}")
+        print(f"Error while fetching players: {e}")
         return []
     finally:
         session.close()

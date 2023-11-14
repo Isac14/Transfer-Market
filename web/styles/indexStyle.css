@@ -1,209 +1,154 @@
+/* Reset básico para padronizar os estilos nos navegadores */
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
-header {
+
+/* Definindo fontes e cores de fundo gerais */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #121212; /* fundo escuro para um tema futurista */
+    color: #ffffff;
+    line-height: 1.6;
+}
+
+h1{
+    margin-left: 2rem;
+}
+
+.header-buttons{
+    text-align: end;
+}
+/* Restante do CSS não alterado para economizar espaço */
+
+/* Adicionando cabeçalhos de seção para melhor separação */
+.section-header {
+    text-align: center;
+    font-size: 24px;
+    color: #0AC5B8; /* Utiliza a cor primária definida anteriormente */
+    margin: 20px 0;
+}
+
+/* Estilizando as seções de jogador e time */
+.player-section, .team-section {
+    background: #262626; /* Um fundo ligeiramente diferente para cada seção */
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+}
+
+/* Adicione mais estilos conforme necessário para outros elementos */
+
+
+/* Container principal para manter o conteúdo centralizado e organizado */
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* Estilo dos cartões de jogadores e times */
+.cardPlayer, .cardTeam {
+    background: #1c1c1c; /* fundo escuro para os cartões */
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+.playerHeader, .teamHeader {
+    background: linear-gradient(145deg, #0d47a1, #2196f3); /* gradiente azul para cabeçalho dos cartões */
+    color: #e0e0e0;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.playerInfo, .teamInfo {
+    padding: 10px 0;
+}
+
+.playerStatus, .teamStatus {
+    background: #333; /* fundo para a área de status */
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+.playerActions, .teamActions {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    margin-top: 10px;
 }
 
-.header-buttons {
-    display: flex;
-    gap: 10px;
-}
-
-.header-buttons button {
-    background-color: #0AC5B8;
-    color: #ffffff;
-    border: none;
+/* Botões com ícones (adicione classes para ícones após integrar uma biblioteca como FontAwesome) */
+button {
     padding: 10px 20px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
+    border: none;
     border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    background-color: #393776;
     transition: background-color 0.3s ease;
+    color: #fff;
 }
 
-.header-buttons button:hover {
-    background-color: #08999B;
+button:hover {
+    opacity: 0.8;
 }
 
-header h1 {
-    text-align: center;
-    margin: 20px;
-    color: #000; 
-    text-shadow: 0 0 10px #0AC5B8, 0 0 20px #0AC5B8, 0 0 30px #0AC5B8, 0 0 40px #0AC5B8;
-    font-family: 'Orbitron', sans-serif; 
-    font-size: 2.5em;
-    letter-spacing: 4px;
-    animation: glow 2s ease-in-out infinite alternate;
+.viewBtn {
+    background: #4caf50; /* verde para ação de "Ver" */
 }
 
-@keyframes glow {
-    from {
-        text-shadow: 0 0 10px #0AC5B8, 0 0 20px #0AC5B8, 0 0 30px #0AC5B8, 0 0 40px #0AC5B8;
+.editBtn {
+    background: #ffeb3b; /* amarelo para ação de "Editar" */
+    color: #000; /* texto preto para contraste */
+}
+
+.deleteBtn {
+    background: #f44336; /* vermelho para ação de "Deletar" */
+}
+
+/* Campos de pesquisa */
+.searchPlayer, .searchTeam {
+    margin: 20px 0;
+}
+
+.searchPlayer input, .searchTeam input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #333;
+    background: #333;
+    color: #fff;
+}
+
+/* Responsividade - exemplo simples para telas menores */
+@media screen and (max-width: 768px) {
+    .playerActions button {
+        width: 30%;
     }
-    to {
-        text-shadow: 0 0 20px #0AC5B8, 0 0 30px #0AC5B8, 0 0 40px #0AC5B8, 0 0 50px #0AC5B8, 0 0 60px #0AC5B8;
-    }
 }
 
-main {
-    display: flex;
-    justify-content: center;
-    gap: 15px;
-}
-
-.player {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 2px;
-
-    /* border: 1px solid black; */
-    border-radius: 15px;
-    height: 80vh;
-    width: 48%;
-    overflow-y: auto;
-    overflow-x: auto;
-}
-
-input {
-    border-radius: 10px;
-    padding: 5px;
-    font-size: 0.8rem;
-}
-
-.searchPlayer {
-    position: relative;
-    align-self: flex-start;
-    margin-top: 10%;
-    margin-left: 5%;
-    margin-bottom: 5px;
-}
-.search-icon{
-    position: absolute;
-    right: 10px;
-    top: 50%;
-    transform: translateY(-50%);
-}
-.team {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 2px;
-    border-radius: 15px;
-    height: 80vh;
-    width: 48%;
-    overflow-y: auto;
-}
-
-.searchTeam {
-    position: relative;
-    align-self: flex-end;
-    margin-right: 5%;
-    margin-bottom: 5px;
-}
-
-.cardPlayer {
-    border: 1px solid black;
-    border-radius: 15px;
-    height: auto; 
-    max-height: 90vh; 
-    width: 30rem;
-    display: flex;
-    flex-direction: row; 
-    overflow: auto; 
-    padding: 10px 10px;
-}
-.cardPlayer img{
-    width: 40%;
-}
-.cardTeam {
-    border: 1px solid red;
-    border-radius: 15px;
-    height: auto; 
-    max-height: 90vh; 
-    width: 95%;
-    display: flex;
-    flex-direction: row; 
-    overflow: auto; 
-    padding: 10px 10px;
-}
-
-.cardTeam img{
-    width: 150px;
-    max-height: 90%;
-}
-
-img {
-    height: 90%;
-    margin: 3px 15px;
-    border-radius: 10px;
-}
-
-.content {
-    font-size: 0.9rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-a {
-    text-align: center;
+/* Adicione mais estilos conforme necessário para outros elementos */
+.popup {
+    display: none; /* Escondido por padrão */
+    position: fixed;
+    z-index: 10;
+    left: 0;
+    top: 0;
+    width: 100%;
     height: 100%;
-}
-.infoButtonPlayer {
-    background-color: #0AC5B8;
-    color: #ffffff;
-    border: none; 
-    padding: 5px 10px; 
-    text-align: center; 
-    text-decoration: none; 
-    display: inline-block; 
-    font-size: 14px; 
-    margin: 4px 4px; 
-    cursor: pointer; 
-    border-radius: 6px; 
-    transition: background-color 0.3s ease;
+    background-color: rgba(0, 0, 0, 0.5); /* Sombreamento para fundo */
 }
 
-.infoButtonPlayer:hover {
-    background-color: #08999B; 
+.popup-content {
+    background-color: #fff;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 50%; /* ou a largura que preferir */
 }
 
-
-.infoButtonTeam {
-    background-color: #0AC5B8;
-    color: #ffffff;
-    border: none; 
-    padding: 5px 10px; 
-    text-align: center; 
-    text-decoration: none; 
-    display: inline-block; 
-    font-size: 14px;
-    margin: 4px 4px; 
-    cursor: pointer; 
-    border-radius: 6px; 
-    transition: background-color 0.3s ease; 
-}
-
-.infoButtonTeam:hover {
-    background-color: #08999B; 
-}
-#status {
-    display: flex;
-    margin-top: 5px;
-    margin-left: 45%;
-}
-
-#statusTeam {
-    display: flex;
-    margin-top: 5px;
-    margin-left: 30%;
-}
